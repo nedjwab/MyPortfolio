@@ -5,9 +5,15 @@
     --textcolor:#344563;
     --titlecolor:#172B4D;
     --color:#7F8CFF;
-   
+    --iconscolor:#505F79;  
 }
-
+body{
+    margin: 0;  
+    background-image: url("images/Background.png"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 70px;
+}
 #Header{
     display:flex;
     justify-content: space-between;
@@ -26,7 +32,7 @@
     color:var(--logocolor);
     font-size:30px;
 }
-#headlineSection{
+#headlineSection{    
     margin:  0px 20px 50px 20px;
 }
 #headlineSection h1{
@@ -43,3 +49,17 @@
     color:var(--color);
     font-family: 'Poppins',sans-serif;
 }
+#sociallinks{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0px;
+    font-size: 30px;
+    color: var(--iconscolor);
+}
+.SocialDesign{
+    margin-right: 10px;
+}
+#sociallinks a:visited { 
+    text-decoration: none; 
+   }
