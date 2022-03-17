@@ -4,6 +4,7 @@
   --titlecolor: #172b4d;
   --color: #7f8cff;
   --iconscolor: #505f79;
+  --bgcolor:#FFFFFF;
 }
 
 body {
@@ -46,6 +47,7 @@ body {
   margin: 0 20px 40px 20px;
   padding-bottom: 10px;
   padding-right: 25px;
+  background-color: var(--bgcolor);
 }
 
 #headlineSection h1 {
