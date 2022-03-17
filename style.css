@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+ 
+ 
 :root{
     --logocolor:#6070FF;
     --textcolor:#344563;
     --titlecolor:#172B4D;
+    --color:#7F8CFF;
    
 }
-body{
-    font-family: 'Poppins', sans-serif;
-     
-}
+
 #Header{
     display:flex;
     justify-content: space-between;
-    margin: 30px 20px 90px 20px;
+    margin: 30px 20px 120px 20px;
 }
 .design{
     text-decoration: None;
@@ -20,9 +19,27 @@ body{
 }
  #logo{
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     color: var(--logocolor);
 }
-#Menu_id{
+#Menu_id{ 
     color:var(--logocolor);
-    font-size:18px;
+    font-size:30px;
+}
+#headlineSection{
+    margin:  0px 20px 50px 20px;
+}
+#headlineSection h1{
+    color: var(--titlecolor);
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+#headlineSection p{
+    color:var( --textcolor);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+#headlineSection h3{
+    color:var(--color);
+    font-family: 'Poppins',sans-serif;
 }
