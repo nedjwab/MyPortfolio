@@ -17,15 +17,18 @@ body{
 #Header{
     display:flex;
     justify-content: space-between;
-    margin: 30px 20px 120px 20px;
+    margin: 30px 20px 100px 20px;
 }
 .design{
     text-decoration: None;
     list-style:None;
 }
  #logo{
+    line-height: 20px;
     font-size: 18px;
+    font-weight: 700;
     font-family: 'Poppins', sans-serif;
+    font-style: normal;
     color: var(--logocolor);
 }
 #Menu_id{ 
@@ -33,30 +36,43 @@ body{
     font-size:30px;
 }
 #headlineSection{    
-    margin:  0px 20px 50px 20px;
+    margin:  0px 20px 40px 20px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    
 }
 #headlineSection h1{
     color: var(--titlecolor);
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 40px;
+    line-height: 52px;
 }
 #headlineSection p{
     color:var( --textcolor);
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 24px;
     font-family: 'Poppins', sans-serif;
 }
 #headlineSection h3{
     color:var(--color);
     font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 #sociallinks{
     display:flex;
-    justify-content: flex-start;   
+    justify-content: flex-start;  
+    margin:0px; 
     padding-left: 0px;
     font-size: 30px;   
 }
 .SocialDesign{
-    margin-right: 15px;
+    margin-right: 17px;
     color: var(--iconscolor);
 }
  
