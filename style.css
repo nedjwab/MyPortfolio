@@ -3,17 +3,26 @@
     --logocolor:#6070FF;
     --textcolor:#344563;
     --titlecolor:#172B4D;
+   
 }
 body{
     font-family: 'Poppins', sans-serif;
-    text-decoration: ;
+     
 }
 #Header{
     display:flex;
     justify-content: space-between;
-    margin: 0px 9px;
+    margin: 30px 20px 90px 20px;
 }
 .design{
     text-decoration: None;
     list-style:None;
+}
+ #logo{
+    font-size: 18px;
+    color: var(--logocolor);
+}
+#Menu_id{
+    color:var(--logocolor);
+    font-size:18px;
 }
