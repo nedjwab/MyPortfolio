@@ -17,7 +17,8 @@ body{
 #Header{
     display:flex;
     justify-content: space-between;
-    margin: 30px 20px 100px 20px;
+    align-items: center;
+    margin: 20px 20px 100px 20px;
 }
 .design{
     text-decoration: None;
@@ -29,11 +30,13 @@ body{
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+    padding-top: 4px;
     color: var(--logocolor);
 }
 #Menu_id{ 
     color:var(--logocolor);
-    font-size:30px;
+    font-size:34px;
+    margin-top: 0px;
 }
 #headlineSection{    
     margin:  0px 20px 40px 20px;
