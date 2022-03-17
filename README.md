@@ -3,6 +3,7 @@
 # Portfolio: setup and mobile version skeleton
 
 In this Project i have built a mobile skeleton for my microverse portfolio.
+
 ![alt text](https://github.com/nedjwab/MyPortfolio/blob/mobile-skeleton/images/portfolio.PNG)
  
 
