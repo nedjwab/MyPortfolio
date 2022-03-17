@@ -1,4 +1,6 @@
-body{
-    margin: 0px;
-    background-image: ;
+:root{
+    --logocolor:#6070FF;
+    --textcolor:#344563;
+    --titlecolor:#172B4D;
 }
+ 
