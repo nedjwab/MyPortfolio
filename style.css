@@ -100,19 +100,20 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 40px 65px 20px 30px;
-    width:1156px;
-    height: 600px;
+    margin: 40px 75px 20px 50px;
+    Width:327px;
+    Height:596px;
     border: 2px solid #A7AEFF;
-    border-radius: 24px;
-    width: 75%;
+    border-radius: 16px;
     float: left;
-    padding: 15px;
+    padding: 10px;
 }
 
 .gridimg{   
     float:left;
-    margin-right:90px; 
+    margin-right:90px;
+    Width:295px;
+    Height :220px ;
 }
 .btn{
     color:#396DF2;
@@ -168,4 +169,42 @@ body {
     color: #000000;
     padding-left: 0;
 }
- 
+.TextArea h3{
+   color:var(--titlecolor);
+   font-family: 'Poppins';
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 44px; 
+   margin-top:0px;
+   margin-left: 20px;
+}
+.TextArea p{
+   color:var(--textcolor);
+   font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-left: 30px;
+}
+.infolist{
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 0;
+    padding-top: 0;
+}
+.font{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color:var(--textcolor);
+    margin-left: 30px;
+}
+.gridimg{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+
+}
