@@ -177,7 +177,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 48px;
-  padding-left: 0;
 }
 
 .SkillsSection {
@@ -189,7 +188,7 @@ body {
   line-height: 24px;
   border-bottom: 1px solid #dfe1e6;
   padding-bottom: 23px;
-  text-align: left;
+  padding-left: 2px;
 }
 
 .TextArea h3 {
@@ -254,4 +253,5 @@ span {
 
 .b {
   margin-left: 6px;
+  margin-top: 15px;
 }
