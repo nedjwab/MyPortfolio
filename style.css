@@ -147,10 +147,25 @@ body {
     color: #6070FF;
     background-color: #EBEBFF;
     border-radius: 9px;
-    padding :20px; 
     width: 53px;
     height: 24px;
 }
 #About{
     margin-left:30px;
 }
+.listdesign{
+    margin-right: 70px;
+}
+ 
+#SkillsSection{    
+    margin-top: 40px;
+    margin-left:30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 0;
+}
+ 
