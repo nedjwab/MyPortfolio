@@ -124,11 +124,21 @@ body {
     color:#396DF2;
     background-color: #FFFFFF;
     border: 1px solid #396DF2;
-    padding: 10px;
+    padding: 13px;
     border-radius: 9px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
+    align-items: center;
 }
+.btn:hover{
+    background-color: #6070FF;
+    color:#FFFFFF;
+}
+.btn:active{
+     
+    color:#FFFFFF;
+    background: #2230D2;
+} 
