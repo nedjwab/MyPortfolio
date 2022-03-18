@@ -93,9 +93,7 @@ body {
     justify-items: center;
     justify-content: center;
     width:100%;
-    margin-top:100px;
-     
-    
+    margin-top:100px;    
 }
 .card{
     display:flex;
@@ -111,8 +109,7 @@ body {
     float: left;
     padding: 15px;
 }
- 
-  
+
 .gridimg{   
     float:left;
     margin-right:90px; 
@@ -153,4 +150,7 @@ body {
     padding :20px; 
     width: 53px;
     height: 24px;
+}
+#About{
+    margin-left:30px;
 }
