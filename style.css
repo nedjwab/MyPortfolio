@@ -189,6 +189,7 @@ body {
   border-bottom: 1px solid #dfe1e6;
   padding-bottom: 23px;
   padding-left: 2px;
+  padding-top: 20px;
 }
 
 .TextArea h3 {
@@ -240,12 +241,12 @@ body {
   color: #7a869a;
 }
 
-span {
-  margin-right: 6px;
-  margin-left: 15px;
-  margin-bottom: 15px;
-}
-
+.span {
+    margin-right: 6px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  
 #About {
   margin-left: 60px;
   margin-top: 110px;
