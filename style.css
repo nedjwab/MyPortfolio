@@ -90,26 +90,25 @@ body {
 
 #work{
     padding-right: 20px; 
-    diplay:grid;
+    display:grid;
     justify-items: center;
     justify-content: center;
     width:100%;
     margin-top:100px;    
-    
 }
 .card{
     display:flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    float:left;
     margin: 40px 75px 20px 73px;
     Width:327px;
     Height:600px;
     border: 2px solid #A7AEFF;
     border-radius: 16px;
-    float: left;
     padding: 10px;
-    background-color: #FFFFFF;
+     
 }
 
 .gridimg{   
@@ -226,3 +225,10 @@ body {
      margin-bottom: 15px;
 }
  
+.About{
+    margin-left: 60px;
+    margin-top: 120px;
+}
+.b{
+    margin-left: 6px;
+}
