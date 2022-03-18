@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 40px;
+  background: #E5E5E5;
 }
 
 #Header {
@@ -94,19 +95,21 @@ body {
     justify-content: center;
     width:100%;
     margin-top:100px;    
+    
 }
 .card{
     display:flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 40px 75px 20px 50px;
+    margin: 40px 75px 20px 73px;
     Width:327px;
     Height:596px;
     border: 2px solid #A7AEFF;
     border-radius: 16px;
     float: left;
     padding: 10px;
+    background-color: #FFFFFF;
 }
 
 .gridimg{   
@@ -176,16 +179,17 @@ body {
    font-size: 32px;
    line-height: 44px; 
    margin-top:0px;
+   margin-bottom: 0px;
    margin-left: 20px;
 }
 .TextArea p{
    color:var(--textcolor);
    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    margin-left: 30px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 24px;
+   margin-left: 20px;
 }
 .infolist{
     display: flex;
@@ -200,11 +204,21 @@ body {
     font-size: 13px;
     line-height: 16px;
     color:var(--textcolor);
-    margin-left: 30px;
+    margin-left: 20px;
+    margin-right:28px;
+    
 }
 .gridimg{
     margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 9px;
-
+}
+.BulleDesign{
+    margin-right:30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7A869A;
 }
