@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 40px;
-  background: #E5E5E5;
+ 
 }
 
 #Header {
@@ -104,7 +104,7 @@ body {
     flex-wrap: wrap;
     margin: 40px 75px 20px 73px;
     Width:327px;
-    Height:596px;
+    Height:600px;
     border: 2px solid #A7AEFF;
     border-radius: 16px;
     float: left;
@@ -130,6 +130,7 @@ body {
     font-size: 17px;
     line-height: 24px;
     align-items: center;
+    margin-left: 17px;
 }
 .btn:hover{
     background-color: #6070FF;
@@ -141,6 +142,7 @@ body {
 } 
 .liststyle{
     display: flex;
+    padding: 10px;
     flex-direction: row;
     align-items: flex-start;
     font-family: 'Poppins';
@@ -149,14 +151,10 @@ body {
     font-size: 12px;
     line-height: 16px;
     color: #6070FF;
+    border-radius: 8px ;
     background-color: #EBEBFF;
-    border-radius: 9px;
-    width: 53px;
-    height: 24px;
 }
-#About{
-    margin-left:30px;
-}
+ 
 .listdesign{
     margin-right: 70px;
 }
@@ -222,3 +220,9 @@ body {
     line-height: 16px;
     color: #7A869A;
 }
+ span{
+     margin-right: 6px;
+     margin-left: 15px;
+     margin-bottom: 15px;
+}
+ 
