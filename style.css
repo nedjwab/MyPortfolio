@@ -4,14 +4,15 @@
   --titlecolor: #172b4d;
   --color: #7f8cff;
   --iconscolor: #505f79;
+  --bgcolor: #fff;
 }
 
 body {
   margin: 0;
-  background-image: url("images/Background.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 0 70px;
+  background-position: 0 40px;
+  background-image: url("images/Background.png");
 }
 
 #Header {
@@ -42,13 +43,13 @@ body {
   margin-top: 0;
 }
 
-#headlineSection {
+.headlineSection {
   margin: 0 20px 40px 20px;
   padding-bottom: 10px;
   padding-right: 25px;
 }
 
-#headlineSection h1 {
+.headlineSection h1 {
   color: var(--titlecolor);
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -56,7 +57,7 @@ body {
   line-height: 52px;
 }
 
-#headlineSection p {
+.headlineSection p {
   color: var(--textcolor);
   font-style: normal;
   font-weight: 400;
@@ -65,7 +66,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-#headlineSection h3 {
+.headlineSection h3 {
   color: var(--color);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -74,10 +75,10 @@ body {
   line-height: 24px;
 }
 
-#sociallinks {
+.sociallinks {
   display: flex;
   justify-content: flex-start;
-  margin: 0;
+  margin-bottom: 15px;
   padding-left: 0;
   font-size: 30px;
 }
@@ -85,4 +86,181 @@ body {
 .SocialDesign {
   margin-right: 17px;
   color: var(--iconscolor);
+}
+
+#work {
+  padding-right: 20px;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  float: left;
+  margin: 40px 75px 20px 73px;
+  width: 327px;
+  height: 600px;
+  border: 2px solid #a7aeff;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.gridimg {
+  float: left;
+  margin-right: 90px;
+  width: 295px;
+  height: 220px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 9px;
+}
+
+.btn {
+  color: #396df2;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  padding: 13px;
+  border-radius: 9px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  margin-left: 17px;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.btn:active {
+  color: #fff;
+  background: #2230d2;
+}
+
+.liststyle {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  border-radius: 8px;
+  background-color: #ebebff;
+}
+
+.listdesign {
+  margin-right: 70px;
+}
+
+#SkillsSection {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.SkillsSection {
+  width: 327px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom: 1px solid #dfe1e6;
+  padding-bottom: 23px;
+  padding-left: 2px;
+  padding-top: 20px;
+}
+
+.TextArea h3 {
+  color: var(--titlecolor);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.TextArea p {
+  color: var(--textcolor);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.infolist {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.font {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--textcolor);
+  margin-left: 20px;
+  margin-right: 28px;
+}
+
+.BulleDesign {
+  margin-right: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.span {
+  margin-right: 6px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+#About {
+  margin-left: 60px;
+  margin-top: 110px;
+}
+
+.b {
+  margin-left: 6px;
+  margin-top: 15px;
+}
+
+h2 {
+  color: var(--titlecolor);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
