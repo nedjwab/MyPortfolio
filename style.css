@@ -317,6 +317,26 @@ h2 {
   color: #6070FF;
   letter-spacing: 0.03em;
 }
+#touchbutton:hover{
+  background: #6070FF;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  Font:'Poppins', sans-serif;
+  font-Weight :500, Medium;
+  font-style: normal;
+  font-Size :17px;
+  Line-height :24px;
+  text-align :Center;
+  color: white;
+  letter-spacing: 0.03em;
+}
+
+  
+#touchbutton:active {
+  color: #fff;
+  background: #2230D2;
+}
+
+
 #Formtitle{
   margin-top: 80px;
   font-family: 'Poppins',sans-serif;
@@ -338,7 +358,7 @@ h2 {
   margin-top:50px;
   margin-right: 47px;
   margin-left: 30px;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
 }
 
 input {
@@ -346,20 +366,27 @@ input {
   padding: 15px 10px;
   font-size: 17px;
   margin-bottom: 25px;
-  color: #6070ff;
+  color: black;
 }
 
 input:focus {
   outline: 0;
 }
+input :placeholder{
+  color: #B3BAC5;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  }
 
 textarea {
   font-family: "Poppins", sans-serif;
   padding: 15px 10px;
   font-size: 17px;
-  color: #6070ff;
+  color: black;
 }
 textarea:focus {
   outline: 0;
-  
 }
