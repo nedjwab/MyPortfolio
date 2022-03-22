@@ -142,10 +142,10 @@
             <p  id="Formtext">If you have an application you are interested in developing, 
                   a feature that you need built or a project that needs coding. 
                   I’d love to help with it </p>
-            <form id="Contact-form" method="">
-                <input class="inputclass" type="text" id="name" name="name" required placeholder="Your name"> 
+            <form id="Contact-form" method="post" action=>
+                <input class="inputclass" type="text" id="name" name="name" required placeholder="Your name" maxlength="30"> 
                 <input class="inputclass" type="email" id="email" name="email" requred placeholder="username@example.com">
-                <textarea id="Textareainput" id="msg" name="user_message" requred placeholder="Write your message here"></textarea>
+                <textarea id="Textareainput" id="msg" name="user_message" requred placeholder="Write your message here" maxlength="500"></textarea>
             </form>
             <button id="touchbutton" class="btn">Get It Touch</button>
         </section>
