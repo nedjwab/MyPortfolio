@@ -148,6 +148,7 @@ body {
   background: #2230D2;
 }
 
+
 .liststyle {
   display: flex;
   padding: 10px;
@@ -299,6 +300,7 @@ h2 {
   border: 1px solid #CFD8DC;
   border-radius: 8px;
 }
+ 
 #touchbutton{
   margin-left: 40px;
 }
