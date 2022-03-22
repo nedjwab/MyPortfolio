@@ -140,11 +140,12 @@ body {
   background-color: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  cursor: pointer;
 }
 
 .btn:active {
   color: #fff;
-  background: #2230d2;
+  background: #2230D2;
 }
 
 .liststyle {
@@ -263,4 +264,64 @@ h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+}
+#ContactSection{
+  background: #6070FF;
+  border-radius: 130px 0 0 0 ;
+  margin-left:  0;
+  margin-right: 0;
+  margin-top: 110px; 
+  padding-bottom: 20px;
+  padding-top: 50px;
+  background-image: url("images/footerbg.png");
+  background-repeat: no-repeat;
+  background-position:50px 10px;
+}
+#Contact-form{
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px ;
+  padding-right:40px ;
+  margin-bottom: 20px;
+}
+.inputclass{
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  height:50px;
+  border:none;
+}
+#Textareainput{
+  height: 200px;
+}
+.inputclass,#Textareainput{
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+#touchbutton{
+  margin-left: 40px;
+}
+#Formtitle{
+  margin-top: 80px;
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#Formtext{
+  font-family: 'Poppins',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  margin-top:50px;
+  margin-right: 47px;
+  margin-left: 30px;
+  margin-bottom: 70px;
 }
