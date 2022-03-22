@@ -37,6 +37,8 @@ go to the index.html file .
 ## Authors
 
 👤 **Nedjwa Bouraiou**
+👤 **Yussuf Bash**
+
 
 - GitHub: [@Nedjwab](https://github.com/nedjwab)
 - LinkedIn: [@Bouraiounedjwa](https://www.linkedin.com/feed/)
