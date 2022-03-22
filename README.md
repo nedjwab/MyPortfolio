@@ -40,7 +40,7 @@ go to the index.html file .
 👤 **Yussuf Bash**
 
 
-- GitHub: [@Nedjwab](https://github.com/nedjwab)
+- GitHub: [@Nedjwab](https://github.com/nedjwab)[@YussufOB](https://github.com/YussufOB)
 - LinkedIn: [@Bouraiounedjwa](https://www.linkedin.com/feed/)
 
 
