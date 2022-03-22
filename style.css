@@ -286,14 +286,14 @@ h2 {
   padding-bottom: 40px;
   margin-bottom: 20px;
 }
-.inputclass{
+/* .inputclass{
   align-items: center;
   margin-bottom: 20px;
   border: 1px solid #CFD8DC;
   border-radius: 8px;
   height:50px;
   border:none;
-}
+} */
 #Textareainput{
   height: 200px;
 }
@@ -324,7 +324,7 @@ h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
 }
 #Formtext{
@@ -339,4 +339,27 @@ h2 {
   margin-right: 47px;
   margin-left: 30px;
   margin-bottom: 70px;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  padding: 15px 10px;
+  font-size: 17px;
+  margin-bottom: 25px;
+  color: #6070ff;
+}
+
+input:focus {
+  outline: 0;
+}
+
+textarea {
+  font-family: "Poppins", sans-serif;
+  padding: 15px 10px;
+  font-size: 17px;
+  color: #6070ff;
+}
+textarea:focus {
+  outline: 0;
+  
 }
