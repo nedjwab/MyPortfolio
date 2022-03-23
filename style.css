@@ -453,9 +453,6 @@ textarea:focus {
     margin-top: 100px;
     grid-template-columns: repeat(1, 2fr);
     grid-template-rows: auto;
-    background-color: #000;
-  
-
   }
   .card {
     height:380px;
