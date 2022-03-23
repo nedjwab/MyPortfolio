@@ -451,12 +451,16 @@ textarea:focus {
   #work { 
     display: grid;
     margin-top: 100px;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: auto;
+    background-color: #000;
+  
+
   }
   .card {
     height:380px;
     width:83%;
-    padding-right:100px;
-    padding-top: 50px;
+    
     padding-bottom: 70px;
     height: fit-content;
     border: 2px solid #a7aeff;
