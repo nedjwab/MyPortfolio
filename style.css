@@ -365,11 +365,9 @@ input {
   margin-bottom: 25px;
   color: black;
 }
-
 input:focus {
   outline: 0;
 }
-
 input :placeholder {
   color: #b3bac5;
   font-family: 'Poppins', sans-serif;
@@ -378,14 +376,12 @@ input :placeholder {
   font-size: 15px;
   line-height: 24px;
 }
-
 textarea {
   font-family: "Poppins", sans-serif;
   padding: 15px 10px;
   font-size: 17px;
   color: black;
 }
-
 textarea:focus {
   outline: 0;
 }
@@ -394,7 +390,7 @@ textarea:focus {
   html, body {
     margin: 0;
     padding: 0;
-}
+  }
   .FirstSection{
     max-width: 100%;
     height: 900px;
@@ -440,7 +436,6 @@ textarea:focus {
   .headlineSection{  
     margin-top: 300px;
     margin-left: 200px;
-    padding-right:30px;
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -473,18 +468,13 @@ textarea:focus {
     background-color: #505f79;
     padding-left: 20px;
   }
-  .AboutSection{
-    background-color: white;
-    border-radius: 0 120px 0 0;
-    display: flex;
-    margin:0
-  }
   .contactSection{
     background-image: url("images/Contactformdesktop.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 120px;
     padding-top: 10px;
+    margin-top: 0;
   }
   #Contact-form {
     display: flex;
@@ -493,18 +483,51 @@ textarea:focus {
     margin-top: 0px;
   }
   .inputclass,
-#Textareainput {
-  border: 1px solid #cfd8dc;
-  border-radius: 0;
+  #Textareainput {
+    border: 1px solid #cfd8dc;
+    border-radius: 0;
+  }
+  #Formtitle {
+    padding-top: 80px;
+  } 
+  #Formtext{
+    margin: 50px 0 48px 0;
+    padding:0 400px;
+  }
+  #touchbutton{
+    margin: 20px 10px 0 220px;
+  }
+  .aboutSection{
+    background-color:white;
+    border-radius: 0 120px 0 0;
+    display:flex;
+    justify-content:column;
+    margin:0;
+    padding-left:65px;
+    padding-top: 0;
+  }
+  #About{
+    width: 36%;
+    padding-right: 50px;
+  }
+  .Skills{
+    display:block;
+    margin-top: 150px;
+    width: 50%;
+    margin-right: 130px;
+  }
+  .Skills li{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 20px;
+    margin-top: 28px;
+  }
+  .skillList{
+    margin-right: 50px;
+    font-size: 15px;
+  }
+  .languageIcons{
+    background: #F7F7F9;
+    border-radius: 8px;
+  }
 }
-#Formtitle {
-  padding-top: 80px;
-} 
-#Formtext{
-  margin: 50px 0 48px 0;
-  padding:0 400px;
-}
-#touchbutton{
-  margin: 20px 10px 0 220px;
-}
- }
