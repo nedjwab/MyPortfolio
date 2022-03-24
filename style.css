@@ -603,20 +603,24 @@ textarea:focus {
     font-size: 20px;
     line-height: 24px;
   }
-  .border{
+
+  .border {
     border-bottom: 1px solid #d2d7da;
     padding-bottom: 36px;
-    margin-left: 0px;
+    margin-left: 0;
   }
+
   .picturescreenshot {
     width: 470px;
     height: 390px;
     margin-right: 20px;
   }
-  .Skills img{
+
+  .Skills img {
     margin: 0 10px 0 49px;
   }
-  .skillList  li{
+
+  .skillList li {
     margin-top: 5px;
     margin-left: 42px;
     margin-right: 15px;
