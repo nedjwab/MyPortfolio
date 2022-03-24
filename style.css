@@ -1,4 +1,4 @@
-:root {
+:root{
   --logocolor: #6070ff;
   --textcolor: #344563;
   --titlecolor: #172b4d;
@@ -7,7 +7,7 @@
   --bgcolor: #fff;
 }
 
-body {
+body{
   margin: 0;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -15,19 +15,19 @@ body {
   background-image: url("images/Background.png");
 }
 
-#Header {
+#Header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 20px 100px 20px;
 }
 
-.design {
+.design{
   text-decoration: none;
   list-style: none;
 }
 
-#logo {
+#logo{
   line-height: 20px;
   font-size: 18px;
   font-weight: 700;
@@ -37,19 +37,19 @@ body {
   color: var(--logocolor);
 }
 
-#Menu_id {
+#Menu_id{
   color: var(--logocolor);
   font-size: 34px;
   margin-top: 0;
 }
 
-.headlineSection {
+.headlineSection{
   margin: 0 20px 40px 20px;
   padding-bottom: 10px;
   padding-right: 25px;
 }
 
-.headlineSection h1 {
+.headlineSection h1{
   color: var(--titlecolor);
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -57,7 +57,7 @@ body {
   line-height: 52px;
 }
 
-.headlineSection p {
+.headlineSection p{
   color: var(--textcolor);
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.headlineSection h3 {
+.headlineSection h3{
   color: var(--color);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -75,7 +75,7 @@ body {
   line-height: 24px;
 }
 
-.sociallinks {
+.sociallinks{
   display: flex;
   justify-content: flex-start;
   margin-bottom: 15px;
@@ -83,12 +83,12 @@ body {
   font-size: 30px;
 }
 
-.SocialDesign {
+.SocialDesign{
   margin-right: 17px;
   color: var(--iconscolor);
 }
 
-#work {
+#work{
   padding-right: 20px;
   display: grid;
   justify-items: center;
@@ -97,7 +97,7 @@ body {
   margin-top: 100px;
 }
 
-.card {
+.card{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -111,7 +111,7 @@ body {
   padding: 10px;
 }
 
-.gridimg {
+.gridimg{
   float: left;
   margin-right: 90px;
   width: 295px;
@@ -121,7 +121,7 @@ body {
   margin-bottom: 9px;
 }
 
-.btn {
+.btn{
   color: #396df2;
   background-color: #fff;
   border: 1px solid #396df2;
@@ -136,24 +136,24 @@ body {
   margin-left: 17px;
 }
 
-.btn:hover {
+.btn:hover{
   background-color: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   cursor: pointer;
 }
 
-.btn:active {
+.btn:active{
   color: #fff;
   background: #2230d2;
 }
 
-.liststyle {
+.liststyle{
   display: flex;
   padding: 10px;
   flex-direction: row;
   align-items: flex-start;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -163,11 +163,11 @@ body {
   background-color: #ebebff;
 }
 
-.listdesign {
+.listdesign{
   margin-right: 70px;
 }
 
-#SkillsSection {
+#SkillsSection{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -180,7 +180,7 @@ body {
   margin-top: 48px;
 }
 
-.SkillsSection {
+.SkillsSection{
   width: 327px;
   list-style-type: none;
   display: flex;
@@ -193,9 +193,9 @@ body {
   padding-top: 20px;
 }
 
-.TextArea h3 {
+.TextArea h3{
   color: var(--titlecolor);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
@@ -206,7 +206,7 @@ body {
 
 .TextArea p {
   color: var(--textcolor);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -214,15 +214,15 @@ body {
   margin-left: 20px;
 }
 
-.infolist {
+.infolist{
   display: flex;
   justify-content: flex-start;
   padding-left: 0;
   padding-top: 0;
 }
 
-.font {
-  font-family: 'Poppins', sans-serif;
+.font{
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -232,9 +232,9 @@ body {
   margin-right: 28px;
 }
 
-.BulleDesign {
+.BulleDesign{
   margin-right: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -242,31 +242,31 @@ body {
   color: #7a869a;
 }
 
-.span {
+.span{
   margin-right: 6px;
   margin-left: 15px;
   margin-bottom: 15px;
 }
 
-#About {
+#About{
   margin-left: 70px;
   margin-top: 80px;
 }
 
-.b {
+.b{
   margin-left: 6px;
   margin-top: 15px;
 }
 
-h2 {
+h2{
   color: var(--titlecolor);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
 }
 
-.contactSection {
+.contactSection{
   background: #6070ff;
   border-radius: 130px 0 0 0;
   margin-left: 0;
@@ -278,7 +278,7 @@ h2 {
   background-position: 80px 10px;
 }
 
-#Contact-form {
+#Contact-form{
   display: flex;
   flex-direction: column;
   padding-left: 40px;
@@ -286,23 +286,23 @@ h2 {
   padding-bottom: 40px;
 }
 
-#Textareainput {
+#Textareainput{
   height: 200px;
 }
 
 .inputclass,
-#Textareainput {
+#Textareainput{
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
-#touchbutton {
+#touchbutton{
   margin-top: 15px;
   margin-left: 3px;
   margin-right: 20px;
   width: 140px;
   padding: 15px 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 17px;
@@ -312,7 +312,7 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-#touchbutton:hover {
+#touchbutton:hover{
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   font-family: 'Poppins', sans-serif;
@@ -325,14 +325,14 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-#touchbutton:active {
+#touchbutton:active{
   color: #fff;
   background: #2230d2;
 }
 
-#Formtitle {
+#Formtitle{
   margin-top: 80px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -341,8 +341,8 @@ h2 {
   text-align: center;
 }
 
-#Formtext {
-  font-family: 'Poppins', sans-serif;
+#Formtext{
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -355,54 +355,54 @@ h2 {
   margin-bottom: 90px;
 }
 
-.DesktopNavtext {
+.DesktopNavtext{
   display: none;
 }
 
-input {
-  font-family: "Poppins", sans-serif;
+input{
+  font-family: "Poppins",sans-serif;
   padding: 15px 10px;
   font-size: 17px;
   margin-bottom: 25px;
   color: black;
 }
 
-input:focus {
+input:focus{
   outline: 0;
 }
 
 input :placeholder {
   color: #b3bac5;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
 }
 
-textarea {
-  font-family: "Poppins", sans-serif;
+textarea{
+  font-family: "Poppins",sans-serif;
   padding: 15px 10px;
   font-size: 17px;
   color: black;
 }
 
-textarea:focus {
+textarea:focus{
   outline: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
   html,
   body {
     margin: 0;
     padding: 0;
   }
 
-  .DesktopNavtext a:visited {
+  .DesktopNavtext a:visited{
     color: var(--logocolor);
   }
 
-  .FirstSection {
+  .FirstSection{
     max-width: 100%;
     height: 900px;
     background-color: white;
@@ -414,32 +414,32 @@ textarea:focus {
     border-radius: 0 0 0 120px;
   }
 
-  #Menu_id {
+  #Menu_id{
     display: none;
   }
 
-  .DesktopNavtext {
+  .DesktopNavtext{
     display: flex;
     justify-content: flex-start;
   }
 
-  body {
+  body{
     background-image: none;
     max-width: 100%;
     overflow-x: hidden;
     background-color: #e5e5e5;
   }
 
-  #Header {
+  #Header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 90px 100px 90px;
   }
 
-  .DesktopNavElements {
+  .DesktopNavElements{
     margin: 0 40px 0  0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -447,10 +447,10 @@ textarea:focus {
   }
 
   #logo {
-    margin-top: 0;
+    margin-top:0;
   }
 
-  .headlineSection {
+  .headlineSection{
     margin-top: 300px;
     margin-left: 200px;
     font-family: 'Poppins', sans-serif;
@@ -461,12 +461,12 @@ textarea:focus {
     padding-right: 390px;
   }
 
-  #work {
+  #work{
     align-items: center;
     margin-bottom: 100px;
   }
 
-  .card {
+  .card{
     width: 80%;
     display: flex;
     flex-direction: row;
@@ -477,18 +477,18 @@ textarea:focus {
     padding-bottom: 50px;
   }
 
-  .card:nth-child(even) {
+  .card:nth-child(even){
     flex-direction: row-reverse;
     height: auto;
   }
 
-  .languagePics {
+  .languagePics{
     margin-right: 17px;
     background-color: #505f79;
     padding-left: 20px;
   }
 
-  .contactSection {
+  .contactSection{
     background-image: url("images/Contactformdesktop.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -497,7 +497,7 @@ textarea:focus {
     margin-top: 0;
   }
 
-  #Contact-form {
+  #Contact-form{
     display: flex;
     flex-direction: column;
     padding: 0 443px 40px 444px;
@@ -505,25 +505,25 @@ textarea:focus {
   }
 
   .inputclass,
-  #Textareainput {
+  #Textareainput{
     border: 1px solid #cfd8dc;
     border-radius: 0;
   }
 
-  #Formtitle {
+  #Formtitle{
     padding-top: 80px;
   }
 
-  #Formtext {
+  #Formtext{
     margin: 50px 0 48px 0;
     padding: 0 400px;
   }
 
-  #touchbutton {
+  #touchbutton{
     margin: 20px 30px 0 150px;
   }
 
-  .aboutSection {
+  .aboutSection{
     background-color: white;
     border-radius: 0 120px 0 0;
     display: flex;
@@ -532,49 +532,49 @@ textarea:focus {
     padding-top: 0;
   }
 
-  #About {
+  #About{
     width: 36%;
     padding-right: 50px;
   }
 
-  .Skills {
+  .Skills{
     display: block;
     margin-top: 130px;
     width: 50%;
     margin-right: 110px;
   }
 
-  .Skills li {
+  .Skills li{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     margin-top: 28px;
   }
 
-  .skillList {
+  .skillList{
     margin-right: 70px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
   }
 
-  .languageIcons {
+  .languageIcons{
     border-radius: 8px;
   }
 
-  .TextArea h3 {
+  .TextArea h3{
     color: var(--titlecolor);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 700;
     font-size: 32px;
     margin-top: 18px;
     margin-right: 0;
   }
 
-  .TextArea p {
+  .TextArea p{
     color: var(--textcolor);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -582,7 +582,7 @@ textarea:focus {
     margin-right: 6px;
   }
 
-  .TextArea {
+  .TextArea{
     margin-top: 15px;
     margin-left: 9px;
     margin-bottom: 15px;
@@ -590,37 +590,37 @@ textarea:focus {
     width: 50%;
   }
 
-  .gridimg {
+  .gridimg{
     height: 100%;
     width: 100%;
     margin-top: 23px;
   }
 
-  .list {
-    font-family: 'Poppins', sans-serif;
+  .list{
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
   }
 
-  .border {
+  .border{
     border-bottom: 1px solid #d2d7da;
     padding-bottom: 36px;
     margin-left: 0;
   }
 
-  .picturescreenshot {
+  .picturescreenshot{
     width: 470px;
     height: 390px;
     margin-right: 20px;
   }
 
-  .Skills img {
+  .Skills img{
     margin: 0 10px 0 49px;
   }
 
-  .skillList li {
+  .skillList li{
     margin-top: 5px;
     margin-left: 42px;
     margin-right: 15px;
