@@ -441,7 +441,7 @@ textarea:focus {
     margin: 0 40px 0  0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 17px;
     color: var(--logocolor);
   }
@@ -603,10 +603,22 @@ textarea:focus {
     font-size: 20px;
     line-height: 24px;
   }
-
+  .border{
+    border-bottom: 1px solid #d2d7da;
+    padding-bottom: 36px;
+    margin-left: 0px;
+  }
   .picturescreenshot {
     width: 470px;
     height: 390px;
     margin-right: 20px;
+  }
+  .Skills img{
+    margin: 0 10px 0 49px;
+  }
+  .skillList  li{
+    margin-top: 5px;
+    margin-left: 42px;
+    margin-right: 15px;
   }
 }
