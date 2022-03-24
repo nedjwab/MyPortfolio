@@ -144,6 +144,10 @@ body {
   cursor: pointer;
 }
 
+#logo:hover{
+  transform: translateX(70px) rotate(45deg);
+}
+
 .btn:active ,
 .DesktopNavElements:hover{
   color: #fff;
