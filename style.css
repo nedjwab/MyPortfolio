@@ -249,8 +249,8 @@ body {
 }
 
 #About {
-  margin-left: 60px;
-  margin-top: 110px;
+  margin-left: 70px;
+  margin-top: 80px;
 }
 
 .b {
@@ -511,7 +511,7 @@ textarea:focus {
   }
   .Skills{
     display:block;
-    margin-top: 150px;
+    margin-top: 130px;
     width: 50%;
     margin-right: 110px;
   }
