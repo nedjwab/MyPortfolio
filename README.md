@@ -2,7 +2,7 @@
 
 # Responsive Portfolio
 
-In this Project i have built a mobile skeleton for my microverse portfolio.
+In this Project i have built My Responsive Portfolio.
 
 ![alt text](https://github.com/nedjwab/MyPortfolio/blob/mobile-skeleton/images/portfolio.PNG)
  
