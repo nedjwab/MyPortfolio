@@ -515,7 +515,7 @@ textarea:focus {
     display:block;
     margin-top: 150px;
     width: 50%;
-    margin-right: 130px;
+    margin-right: 110px;
   }
   .Skills li{
     display:flex;
@@ -524,11 +524,11 @@ textarea:focus {
     margin-top: 28px;
   }
   .skillList{
-    margin-right: 50px;
+    margin-right:90px;
     font-size: 15px;
   }
   .languageIcons{
-    background: #F7F7F9;
     border-radius: 8px;
+    
   }
 }
