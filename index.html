@@ -11,9 +11,15 @@
         <title>Nedjwa's Portfolio</title>
     </head>
     <body>
+        <section class="FirstSection">
         <header id="Header"> 
                <a href="#" id="logo" class="design">Nedjwa</a>
                <nav>
+                <ul class="DesktopNavtext design">
+                    <li class="DesktopNavElements">About</li>
+                    <li class="DesktopNavElements">Portfolio</li>
+                    <li class="DesktopNavElements">Contact</li>
+                </ul>
                 <i class="fa-solid fa-bars" id="Menu_id"></i>
                </nav>
         </header>
@@ -32,10 +38,10 @@
                 <li class="design"><a href="https://stackoverflow.com/users/18208044/nedjwa" target="_blank" class="SocialDesign" rel="noopener"><i class="fa-brands fa-stack-overflow"></i></a></li>
             </ul>          
         </section>
-
+    </section>
         <section id="work">
             <div  class="card">
-                <img class="gridimg"  src="images/Snapshoot1Portfolio.png"  alt="FirstProjectScreenshot">
+                <img class="gridimg"  src="images/test1.png"  alt="FirstProjectScreenshot">
                 <div class="TextArea">
                     <h3>Tonic</h3>
                     <ul class="infolist">
@@ -44,7 +50,7 @@
                         <li class="BulleDesign">2015</li>
                     </ul>
                     <p>A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required.</p>
+                        no accounts <br>  or sign-ups required.</p>
                         <ul class="design infolist">
                             <li class="liststyle design span">Html</li> 
                            <li class="liststyle design span">Css</li> 
@@ -53,8 +59,6 @@
                         <button class="btn">See Project</button>
                 </div>
             </div>
-          
-        
             <div  class="card">
                 <img class="gridimg"  src="images/Snapshoot2Portfolio.png"  alt="SecondProjectScreenShot">
                 <div class="TextArea">
@@ -65,8 +69,8 @@
                         <li class="BulleDesign">Back End Dev</li>
                         <li class="BulleDesign">2015</li>
                     </ul>
-                    <p>A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required.</p>
+                    <p>Experimental content creation feature that allows users to add to an existing story over<br>
+                         the course of a day without spamming their friends.</p>
                         <ul class="design infolist">
                             <li class="liststyle design span">Html</li> 
                             <li class="liststyle design span">Css</li> 
@@ -84,8 +88,8 @@
                         <li class="BulleDesign">Back End Dev</li>
                         <li class="BulleDesign">2015</li>
                     </ul>
-                    <p>A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required.</p>
+                    <p>Exploring the future of media in Facebook's first Virtual Reality app; a place<br> 
+                        to discover and enjoy 360 photos and videos on Gear VR..</p>
                         <ul class="design infolist">
                             <li class="liststyle design span">Html</li> 
                             <li class="liststyle design span">Css</li> 
@@ -104,8 +108,8 @@
                         <li class="BulleDesign">Back End Dev</li>
                         <li class="BulleDesign">2015</li>
                     </ul>
-                    <p>A daily selection of privately personalized reads; 
-                        no accounts or sign-ups required.</p>
+                    <p>A smart assistant to make driving more safe, efficient,<br> 
+                        and fun by unlocking your most expensive computer: your car..</p>
                         <ul class="design infolist">
                             <li class="liststyle design span">Html</li> 
                             <li class="liststyle design span">Css</li> 
@@ -115,7 +119,8 @@
                 </div>
             </div>
         </section>
-        <section id="About" class="headlineSection">               
+        <section class="aboutSection">
+        <div id="About" class="headlineSection">               
             <h2>About
                 <br> Myself</h2>
             <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
@@ -127,22 +132,36 @@
                 <li class="design"><a href="https://github.com/nedjwab" target="_blank" class="SocialDesign" rel="noopener"><i class="fa-brands fa-github" ></i></a></li>
                 <li class="design"><a href="https://stackoverflow.com/users/18208044/nedjwa" target="_blank" class="SocialDesign" rel="noopener"><i class="fa-brands fa-stack-overflow"></i></a></li>
             </ul>  
-            <button class="btn b ">Get My resume</button>        
-                <ul id="SkillsSection" >
-                  <li class="SkillsSection design listdesign">Languages 
-                  <i class="fa-solid fa-angle-right"></i> </li> 
-                  <li class="SkillsSection design listdesign ">Frameworks 
-                  <i class="fa-solid fa-angle-right"></i></li>        
-                  <li class="SkillsSection design listdesign">Skills 
-                  <i class="fa-solid fa-angle-right"></i></li>      
-             </ul>
+            <button class="btn b">Get My resume</button>   
+        </div>    
+        <div class="Skills" >
+                <ul>
+                  <li class="design">Languages 
+                  <i class="fa-solid fa-chevron-down"></i></li> 
+                  <img  class="skillList languageIcons" src="images/js.png" alt="JsIcon">
+                  <img  class="skillList languageIcons" src="images/html.png" alt="HtmlIcon">   
+                  <img  class="skillList languageIcons" src="images/css.png" alt="HtmlIcon">
+                  <ul class="sociallinks">
+                    <li  class="design skillList languageIcons">JavaScript</li>
+                    <li  class="design skillList languageIcons">Html</li>
+                    <li  class="design skillList languageIcons">Css</li>
+                  </ul>
+                  <li class="design">Frameworks 
+                  <i class="fa-solid fa-angle-right"></i></li>   
+                  <HR>     
+                  <li class="design">Skills 
+                  <i class="fa-solid fa-angle-right"></i></li>     
+                  <HR> 
+                  </ul>
+                </div>
         </section>
-        <section id="ContactSection" >
-            <h2  id="Formtitle">Contact me</h2>
-            <p  id="Formtext">If you have an application you are interested in developing, 
+
+        <section class="contactSection" >
+            <h2 id="Formtitle">Contact me</h2>
+            <p id="Formtext">If you have an application you are interested in developing, 
                   a feature that you need built or a project that needs coding. 
                   I’d love to help with it </p>
-            <form id="Contact-form" method="post" action="https://formspree.io/f/mrgjlvye" > <!--push-->
+            <form id="Contact-form" method="post" action="https://formspree.io/f/mrgjlvye" > 
                 <input class="inputclass" type="text" id="name" name="name"  required placeholder="Your name" maxlength="30"> 
                 <input class="inputclass" type="email" id="email" name="email" required placeholder="username@example.com" >
                 <textarea id="Textareainput" name="user_message" required placeholder="Write your message here" maxlength="500"></textarea>
