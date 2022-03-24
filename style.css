@@ -136,14 +136,16 @@ body {
   margin-left: 17px;
 }
 
-.btn:hover {
+.btn:hover,
+.DesktopNavElements li:hover {
   background-color: #6070ff;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   cursor: pointer;
 }
 
-.btn:active {
+.btn:active ,
+.DesktopNavElements:hover{
   color: #fff;
   background: #2230d2;
 }
