@@ -105,7 +105,7 @@ body {
   float: left;
   margin: 40px 75px 20px 73px;
   width: 327px;
-  height: 600px;
+  height: 650px;
   border: 1px solid  #DFE1E6;
   border-radius: 16px;
   padding: 10px;
@@ -391,6 +391,9 @@ textarea:focus {
     margin: 0;
     padding: 0;
   }
+  .DesktopNavtext a:visited{
+    color:var(--logocolor);
+  }
   .FirstSection{
     max-width: 100%;
     height: 900px;
@@ -427,8 +430,7 @@ textarea:focus {
     font-style: normal;
     font-weight: 600, Medium;
     font-size: 17px;
-   
-    color: #344563;
+    color:var(--logocolor);
   }
   #logo{
     margin-top: 0;
@@ -445,6 +447,7 @@ textarea:focus {
   }
   #work { 
     align-items: center;
+    margin-bottom: 100px;
   }
   .card {
     width:80%; 
@@ -454,13 +457,12 @@ textarea:focus {
     border: 1px solid  #DFE1E6;
     border-radius: 16px;
     background-color: white;  
+    padding-bottom: 50px;
   }
   .card:nth-child(even) {
     flex-direction: row-reverse;
     height: auto;
   }
-
-
   .languagePics{
     margin-right: 17px;
     background-color: #505f79;
@@ -536,7 +538,7 @@ textarea:focus {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    margin-top: 10px;
+    margin-top: 18px;
     margin-right: 0;
   }
   .TextArea p {
@@ -546,18 +548,20 @@ textarea:focus {
     font-weight: 400;
     font-size: 15px; 
     margin-left: 20px;
+    margin-right: 0px;
   }
   .TextArea{
-    margin-right: 100px;
+    margin-top: 15px;
+    margin-left: 9px;
+    margin-bottom: 15px;
     width:50%;
   }
   
   .gridimg {
-    height: auto;
-    max-width: 100%;
-    min-width: 30%;
-    vertical-align: middle;
-    margin: 90px 0; 
+    height:100%;
+    width:100%;
+    padding-top: 0;
+    margin-top: 15px;
   }
   .list{
     font-family: 'Poppins',sans-serif;
@@ -566,5 +570,14 @@ textarea:focus {
     font-size: 20px;
     line-height: 24px;
     font-family: 'Poppins';
+  }
+  .picturescreenshot{
+    width: 420px;
+    height:350px;
+    margin-left: 8px; 
+    
+    margin-right: 35px;
+     
+ 
   }
 }
