@@ -441,7 +441,7 @@ textarea:focus {
     margin: 0 40px 0  0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600, medium;
+    font-weight: 600;
     font-size: 17px;
     color: var(--logocolor);
   }
@@ -470,7 +470,7 @@ textarea:focus {
     width: 80%;
     display: flex;
     flex-direction: row;
-    height: fit-content;
+    height: 80%;
     border: 1px solid  #dfe1e6;
     border-radius: 16px;
     background-color: white;
@@ -527,7 +527,6 @@ textarea:focus {
     background-color: white;
     border-radius: 0 120px 0 0;
     display: flex;
-    justify-content: column;
     margin: 0;
     padding-left: 65px;
     padding-top: 0;
@@ -603,7 +602,6 @@ textarea:focus {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    font-family: 'Poppins';
   }
 
   .picturescreenshot {
