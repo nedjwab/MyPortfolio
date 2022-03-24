@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) 
 
-# Portfolio: setup and mobile version skeleton
+# Responsive Portfolio
 
 In this Project i have built a mobile skeleton for my microverse portfolio.
 
