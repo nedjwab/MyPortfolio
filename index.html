@@ -41,7 +41,7 @@
     </section>
         <section id="work">
             <div  class="card">
-                <img class="gridimg"  src="images/Snapshoot1Portfolio.png"  alt="FirstProjectScreenshot">
+                <img class="gridimg"  src="images/test1.png"  alt="FirstProjectScreenshot">
                 <div class="TextArea">
                     <h3>Tonic</h3>
                     <ul class="infolist">
@@ -121,7 +121,7 @@
                 </div>
             </div>
         </section>
-        <section id="AboutSection">
+        <section class="AboutSection">
         <section id="About" class="headlineSection">               
             <h2>About
                 <br> Myself</h2>
@@ -134,23 +134,35 @@
                 <li class="design"><a href="https://github.com/nedjwab" target="_blank" class="SocialDesign" rel="noopener"><i class="fa-brands fa-github" ></i></a></li>
                 <li class="design"><a href="https://stackoverflow.com/users/18208044/nedjwa" target="_blank" class="SocialDesign" rel="noopener"><i class="fa-brands fa-stack-overflow"></i></a></li>
             </ul>  
-            <button class="btn b ">Get My resume</button>        
+            <button class="btn b">Get My resume</button>        
                 <ul id="SkillsSection" >
                   <li class="SkillsSection design listdesign">Languages 
-                  <i class="fa-solid fa-angle-right"></i> </li> 
+                  <i class="fa-solid fa-chevron-down"></i></li> 
+                  <div class="sociallinks">
+                  <img class="languagePics" src="images/js.png" alt="JsIcon">
+                  <img class="languagePics" src="images/html.png" alt="HtmlIcon">   
+                  <img class="languagePics" src="images/css.png" alt="HtmlIcon">
+                  <ul id="SkillsSection">
+                    <li class="SkillsSection design listdesign">js</li>
+                    <li class="SkillsSection design listdesign ">Html</li>
+                    <li class="SkillsSection design listdesign">Css</li>
+                  </ul>
+                  </div> 
+                       
                   <li class="SkillsSection design listdesign ">Frameworks 
                   <i class="fa-solid fa-angle-right"></i></li>        
                   <li class="SkillsSection design listdesign">Skills 
                   <i class="fa-solid fa-angle-right"></i></li>      
-             </ul>
+                  </ul>
             </section>
         </section>
-        <section id="ContactSection" >
-            <h2  id="Formtitle">Contact me</h2>
-            <p  id="Formtext">If you have an application you are interested in developing, 
+
+        <section class="contactSection" >
+            <h2 id="Formtitle">Contact me</h2>
+            <p id="Formtext">If you have an application you are interested in developing, 
                   a feature that you need built or a project that needs coding. 
                   I’d love to help with it </p>
-            <form id="Contact-form" method="post" action="https://formspree.io/f/mrgjlvye" > <!--push-->
+            <form id="Contact-form" method="post" action="https://formspree.io/f/mrgjlvye" > 
                 <input class="inputclass" type="text" id="name" name="name"  required placeholder="Your name" maxlength="30"> 
                 <input class="inputclass" type="email" id="email" name="email" required placeholder="username@example.com" >
                 <textarea id="Textareainput" name="user_message" required placeholder="Write your message here" maxlength="500"></textarea>

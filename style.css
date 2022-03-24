@@ -106,7 +106,7 @@ body {
   margin: 40px 75px 20px 73px;
   width: 327px;
   height: 600px;
-  border: 2px solid #a7aeff;
+  border: 1px solid  #DFE1E6;
   border-radius: 16px;
   padding: 10px;
 }
@@ -266,7 +266,7 @@ h2 {
   line-height: 52px;
 }
 
-#ContactSection {
+.contactSection {
   background: #6070ff;
   border-radius: 130px 0 0 0;
   margin-left: 0;
@@ -417,7 +417,7 @@ textarea:focus {
     background-image: none;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #E5E5E5;
+    background-color: #E5E5E5; 
   }
   #Header{
     display: flex;
@@ -451,23 +451,60 @@ textarea:focus {
   #work { 
     display: grid;
     margin-top: 100px;
+    gap:12px;
     grid-template-columns: repeat(1, 2fr);
     grid-template-rows: auto;
   }
   .card {
-    height:380px;
-    width:83%;
-    
+    width:83%; 
     padding-bottom: 70px;
     height: fit-content;
-    border: 2px solid #a7aeff;
+    border: 1px solid  #DFE1E6;
     border-radius: 16px;
     background-color: white;
   }
-  
   .gridimg{
-    width:30%;
-    height:100%;
+    width: 47%;
+    height: auto;
+    margin: 0;
   }
-  
+  .languagePics{
+    margin-right: 17px;
+    background-color: #505f79;
+    padding-left: 20px;
+  }
+  .AboutSection{
+    background-color: white;
+    border-radius: 0 120px 0 0;
+    display: flex;
+    margin:0
+  }
+  .contactSection{
+    background-image: url("images/Contactformdesktop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 120px;
+    padding-top: 10px;
+  }
+  #Contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 380px 40px 380px;
+    margin-top: 0px;
+  }
+  .inputclass,
+#Textareainput {
+  border: 1px solid #cfd8dc;
+  border-radius: 0;
+}
+#Formtitle {
+  padding-top: 80px;
+} 
+#Formtext{
+  margin: 50px 0 48px 0;
+  padding:0 400px;
+}
+#touchbutton{
+  margin: 20px 10px 0 220px;
+}
  }
