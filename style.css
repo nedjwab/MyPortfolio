@@ -425,9 +425,9 @@ textarea:focus {
     margin:0 40px 0  0;
     font-family: 'Poppins',sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    font-weight: 600, Medium;
+    font-size: 17px;
+   
     color: #344563;
   }
   #logo{
@@ -522,7 +522,10 @@ textarea:focus {
     margin-top: 28px;
   }
   .skillList{
-    margin-right:90px;
+    margin-right:70px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 15px;
   }
   .languageIcons{
@@ -555,5 +558,12 @@ textarea:focus {
     min-width: 30%;
     vertical-align: middle;
     margin: 90px 0; 
+  }
+  .list{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
   }
 }
