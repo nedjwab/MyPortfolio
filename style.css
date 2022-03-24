@@ -106,7 +106,7 @@ body {
   margin: 40px 75px 20px 73px;
   width: 327px;
   height: 650px;
-  border: 1px solid  #DFE1E6;
+  border: 1px solid  #dfe1e6;
   border-radius: 16px;
   padding: 10px;
 }
@@ -286,7 +286,6 @@ h2 {
   padding-bottom: 40px;
 }
 
-
 #Textareainput {
   height: 200px;
 }
@@ -355,9 +354,11 @@ h2 {
   margin-left: 30px;
   margin-bottom: 90px;
 }
-.DesktopNavtext{
-  display:None;
+
+.DesktopNavtext {
+  display: none;
 }
+
 input {
   font-family: "Poppins", sans-serif;
   padding: 15px 10px;
@@ -365,9 +366,11 @@ input {
   margin-bottom: 25px;
   color: black;
 }
+
 input:focus {
   outline: 0;
 }
+
 input :placeholder {
   color: #b3bac5;
   font-family: 'Poppins', sans-serif;
@@ -376,25 +379,30 @@ input :placeholder {
   font-size: 15px;
   line-height: 24px;
 }
+
 textarea {
   font-family: "Poppins", sans-serif;
   padding: 15px 10px;
   font-size: 17px;
   color: black;
 }
+
 textarea:focus {
   outline: 0;
 }
 
-@media (min-width: 768px) { 
-  html, body {
+@media (min-width: 768px) {
+  html,
+  body {
     margin: 0;
     padding: 0;
   }
-  .DesktopNavtext a:visited{
-    color:var(--logocolor);
+
+  .DesktopNavtext a:visited {
+    color: var(--logocolor);
   }
-  .FirstSection{
+
+  .FirstSection {
     max-width: 100%;
     height: 900px;
     background-color: white;
@@ -402,73 +410,85 @@ textarea:focus {
     background-size: 100%;
     background-position: 0 140px;
     background-image: url("images/Desktopbg.png");
-    padding:15px 0 0 20px; 
+    padding: 15px 0 0 20px;
     border-radius: 0 0 0 120px;
   }
-  #Menu_id{
-    display:None;
-  } 
-  .DesktopNavtext{
+
+  #Menu_id {
+    display: none;
+  }
+
+  .DesktopNavtext {
     display: flex;
     justify-content: flex-start;
   }
-  body{
+
+  body {
     background-image: none;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #E5E5E5; 
+    background-color: #e5e5e5;
   }
-  #Header{
+
+  #Header {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-    margin: 0px 90px 100px 90px;
+    align-items: center;
+    margin: 0 90px 100px 90px;
   }
-  .DesktopNavElements{
-    margin:0 40px 0  0;
-    font-family: 'Poppins',sans-serif;
+
+  .DesktopNavElements {
+    margin: 0 40px 0  0;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 600, Medium;
+    font-weight: 600, medium;
     font-size: 17px;
-    color:var(--logocolor);
+    color: var(--logocolor);
   }
-  #logo{
+
+  #logo {
     margin-top: 0;
   }
-  .headlineSection{  
+
+  .headlineSection {
     margin-top: 300px;
     margin-left: 200px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     padding-right: 390px;
   }
-  #work { 
+
+  #work {
     align-items: center;
     margin-bottom: 100px;
   }
+
   .card {
-    width:80%; 
+    width: 80%;
     display: flex;
     flex-direction: row;
     height: fit-content;
-    border: 1px solid  #DFE1E6;
+    border: 1px solid  #dfe1e6;
     border-radius: 16px;
-    background-color: white;  
+    background-color: white;
     padding-bottom: 50px;
   }
+
   .card:nth-child(even) {
     flex-direction: row-reverse;
     height: auto;
   }
-  .languagePics{
+
+  .languagePics {
     margin-right: 17px;
     background-color: #505f79;
     padding-left: 20px;
   }
-  .contactSection{
+
+  .contactSection {
     background-image: url("images/Contactformdesktop.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -476,63 +496,74 @@ textarea:focus {
     padding-top: 10px;
     margin-top: 0;
   }
+
   #Contact-form {
     display: flex;
     flex-direction: column;
     padding: 0 443px 40px 444px;
-    margin-top: 0px;
+    margin-top: 0;
   }
+
   .inputclass,
   #Textareainput {
     border: 1px solid #cfd8dc;
     border-radius: 0;
   }
+
   #Formtitle {
     padding-top: 80px;
-  } 
-  #Formtext{
+  }
+
+  #Formtext {
     margin: 50px 0 48px 0;
-    padding:0 400px;
+    padding: 0 400px;
   }
-  #touchbutton{
+
+  #touchbutton {
     margin: 20px 30px 0 150px;
-   
   }
-  .aboutSection{
-    background-color:white;
+
+  .aboutSection {
+    background-color: white;
     border-radius: 0 120px 0 0;
-    display:flex;
-    justify-content:column;
-    margin:0;
-    padding-left:65px;
+    display: flex;
+    justify-content: column;
+    margin: 0;
+    padding-left: 65px;
     padding-top: 0;
   }
-  #About{
+
+  #About {
     width: 36%;
     padding-right: 50px;
   }
-  .Skills{
-    display:block;
+
+  .Skills {
+    display: block;
     margin-top: 130px;
     width: 50%;
     margin-right: 110px;
   }
-  .Skills li{
-    display:flex;
-    justify-content:space-between;
+
+  .Skills li {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
     margin-top: 28px;
   }
-  .skillList{
-    margin-right:70px;
-    font-family: 'Poppins',sans-serif;
+
+  .skillList {
+    margin-right: 70px;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
   }
-  .languageIcons{
+
+  .languageIcons {
     border-radius: 8px;
   }
+
   .TextArea h3 {
     color: var(--titlecolor);
     font-family: 'Poppins', sans-serif;
@@ -541,39 +572,43 @@ textarea:focus {
     margin-top: 18px;
     margin-right: 0;
   }
+
   .TextArea p {
     color: var(--textcolor);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px; 
+    font-size: 15px;
     margin-left: 26px;
     margin-right: 6px;
   }
-  .TextArea{
+
+  .TextArea {
     margin-top: 15px;
     margin-left: 9px;
     margin-bottom: 15px;
     margin-right: 15px;
-    width:50%;
+    width: 50%;
   }
-  
+
   .gridimg {
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     margin-top: 23px;
   }
-  .list{
-    font-family: 'Poppins',sans-serif;
+
+  .list {
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     font-family: 'Poppins';
   }
-  .picturescreenshot{
+
+  .picturescreenshot {
     width: 470px;
-    height:390px;
+    height: 390px;
     margin-right: 19px;
   }
 }
