@@ -444,25 +444,24 @@ textarea:focus {
     padding-right: 390px;
   }
   #work { 
-    display: grid;
-    margin-top: 100px;
-    gap:12px;
-    grid-template-columns: repeat(1, 2fr);
-    grid-template-rows: auto;
+    align-items: center;
   }
   .card {
-    width:83%; 
+    width:80%; 
+    display: flex;
+    flex-direction: row;
     padding-bottom: 70px;
     height: fit-content;
     border: 1px solid  #DFE1E6;
     border-radius: 16px;
-    background-color: white;
+    background-color: white;  
   }
-  .gridimg{
-    width: 47%;
+  .card:nth-child(even) {
+    flex-direction: row-reverse;
     height: auto;
-    margin: 0;
   }
+
+ 
   .languagePics{
     margin-right: 17px;
     background-color: #505f79;
@@ -529,6 +528,28 @@ textarea:focus {
   }
   .languageIcons{
     border-radius: 8px;
-    
+  }
+  .TextArea h3 {
+    color: var(--titlecolor);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  .TextArea p {
+    color: var(--textcolor);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px; 
+    margin-left: 20px;
+}
+  .TextArea{
+    margin-right: 100px;
+  }
+  .gridimg{
+    width:47%;
+    height:47%;
   }
 }
