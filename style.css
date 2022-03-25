@@ -278,7 +278,7 @@ h2 {
   background-position: 80px 10px;
 }
 
-#Contact-form {
+.Contact-form {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
@@ -286,12 +286,12 @@ h2 {
   padding-bottom: 40px;
 }
 
-#Textareainput {
+.Textareainput {
   height: 200px;
 }
 
 .inputclass,
-#Textareainput {
+.Textareainput {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
@@ -330,7 +330,7 @@ h2 {
   background: #2230d2;
 }
 
-#Formtitle {
+.Formtitle {
   margin-top: 80px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -341,7 +341,7 @@ h2 {
   text-align: center;
 }
 
-#Formtext {
+.Formtext {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -421,6 +421,7 @@ textarea:focus {
   .DesktopNavtext {
     display: flex;
     justify-content: flex-start;
+    color:#344563;
   }
 
   body {
@@ -473,6 +474,7 @@ textarea:focus {
     border: 1px solid  #dfe1e6;
     border-radius: 16px;
     background-color: white;
+    flex-wrap: wrap;
   
     padding: 24px;
   }
@@ -497,7 +499,7 @@ textarea:focus {
     margin-top: 0;
   }
 
-  #Contact-form {
+  .Contact-form {
     display: flex;
     flex-direction: column;
     padding: 0 443px 40px 444px;
@@ -505,16 +507,16 @@ textarea:focus {
   }
 
   .inputclass,
-  #Textareainput {
+  .Textareainput {
     border: 1px solid #cfd8dc;
     border-radius: 0;
   }
 
-  #Formtitle {
+  .Formtitle {
     padding-top: 80px;
   }
 
-  #Formtext {
+  .Formtext {
     margin: 50px 0 48px 0;
     padding: 0 400px;
   }
@@ -607,14 +609,13 @@ textarea:focus {
   }
 
   .picturescreenshot {
-    width: 47.5%;
+    width: 45.5%;
     height: auto;
     margin-right: 20px;
   }
 
   .Skills img {
     margin: 0 10px 0 40px;
-
   }
 
   #css {
@@ -625,4 +626,3 @@ textarea:focus {
     margin: 0 7px 0 36px;
   }
 }
- 
