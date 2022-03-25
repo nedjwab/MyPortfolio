@@ -399,7 +399,7 @@ textarea:focus {
   }
 
   .DesktopNavtext a:visited {
-    color:#344563;
+    color: #344563;
   }
 
   .FirstSection {
@@ -421,7 +421,7 @@ textarea:focus {
   .DesktopNavtext {
     display: flex;
     justify-content: flex-start;
-    color:#344563;
+    color: #344563;
   }
 
   body {
@@ -475,7 +475,6 @@ textarea:focus {
     border-radius: 16px;
     background-color: white;
     flex-wrap: wrap;
-  
     padding: 24px;
   }
 
@@ -521,8 +520,9 @@ textarea:focus {
     text-align: center;
     margin:0 48px 50px 50px; 
   }
-  .Textareainput{
-    width:30%;
+
+  .Textareainput {
+    width: 30%;
   }
 
   #touchbutton {
@@ -588,7 +588,7 @@ textarea:focus {
 
   .TextArea {
     width: 40%;
-    height:50%;
+    height: 50%;
     padding-right: 10px;
   }
 
@@ -625,11 +625,11 @@ textarea:focus {
   #css {
     margin-left: 60px;
   }
-  .inputclass{
+  .inputclass {
     width:30%;
-    
   }
-  .skillList li {
+  
+  .skillList li { 
     margin: 0 7px 0 36px;
   }
 }
