@@ -1,4 +1,4 @@
-:root{
+:root {
   --logocolor: #6070ff;
   --textcolor: #344563;
   --titlecolor: #172b4d;
@@ -7,7 +7,7 @@
   --bgcolor: #fff;
 }
 
-body{
+body {
   margin: 0;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -15,19 +15,19 @@ body{
   background-image: url("images/Background.png");
 }
 
-#Header{
+#Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 20px 100px 20px;
 }
 
-.design{
+.design {
   text-decoration: none;
   list-style: none;
 }
 
-#logo{
+#logo {
   line-height: 20px;
   font-size: 18px;
   font-weight: 700;
@@ -37,19 +37,19 @@ body{
   color: var(--logocolor);
 }
 
-#Menu_id{
+#Menu_id {
   color: var(--logocolor);
   font-size: 34px;
   margin-top: 0;
 }
 
-.headlineSection{
+.headlineSection {
   margin: 0 20px 40px 20px;
   padding-bottom: 10px;
   padding-right: 25px;
 }
 
-.headlineSection h1{
+.headlineSection h1 {
   color: var(--titlecolor);
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -57,7 +57,7 @@ body{
   line-height: 52px;
 }
 
-.headlineSection p{
+.headlineSection p {
   color: var(--textcolor);
   font-style: normal;
   font-weight: 400;
@@ -66,7 +66,7 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-.headlineSection h3{
+.headlineSection h3 {
   color: var(--color);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -75,7 +75,7 @@ body{
   line-height: 24px;
 }
 
-.sociallinks{
+.sociallinks {
   display: flex;
   justify-content: flex-start;
   margin-bottom: 15px;
@@ -83,12 +83,12 @@ body{
   font-size: 30px;
 }
 
-.SocialDesign{
+.SocialDesign {
   margin-right: 17px;
   color: var(--iconscolor);
 }
 
-#work{
+#work {
   padding-right: 20px;
   display: grid;
   justify-items: center;
@@ -97,7 +97,7 @@ body{
   margin-top: 100px;
 }
 
-.card{
+.card {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -111,7 +111,7 @@ body{
   padding: 10px;
 }
 
-.gridimg{
+.gridimg {
   float: left;
   margin-right: 90px;
   width: 295px;
@@ -121,7 +121,7 @@ body{
   margin-bottom: 9px;
 }
 
-.btn{
+.btn {
   color: #396df2;
   background-color: #fff;
   border: 1px solid #396df2;
@@ -136,493 +136,676 @@ body{
   margin-left: 17px;
 }
 
-.btn:hover{
+<<<<<<< head .btn:hover {
+  ======= .btn:hover {
+    >>>>>>> main
   background-color: #6070ff;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    cursor: pointer;
+  }
+
+  <<<<<<< head .btn:active {
+    ======= .btn:active {
+      >>>>>>> main
   color: #fff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  cursor: pointer;
-}
+      background: #2230d2;
+    }
 
-.btn:active{
-  color: #fff;
-  background: #2230d2;
-}
+    .liststyle {
+      display: flex;
+      padding: 10px;
+      flex-direction: row;
+      align-items: flex-start;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      color: #6070ff;
+      border-radius: 8px;
+      background-color: #ebebff;
+    }
 
-.liststyle{
-  display: flex;
-  padding: 10px;
-  flex-direction: row;
-  align-items: flex-start;
-  font-family: 'Poppins',sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  color: #6070ff;
-  border-radius: 8px;
-  background-color: #ebebff;
-}
+    .listdesign {
+      margin-right: 70px;
+    }
 
-.listdesign{
-  margin-right: 70px;
-}
+    #SkillsSection {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 48px;
+    }
 
-#SkillsSection{
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 48px;
-}
+    .SkillsSection {
+      width: 327px;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      line-height: 24px;
+      border-bottom: 1px solid #dfe1e6;
+      padding-bottom: 23px;
+      padding-left: 2px;
+      padding-top: 20px;
+    }
 
-.SkillsSection{
-  width: 327px;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  font-size: 20px;
-  line-height: 24px;
-  border-bottom: 1px solid #dfe1e6;
-  padding-bottom: 23px;
-  padding-left: 2px;
-  padding-top: 20px;
-}
+    .TextArea h3 {
+      color: var(--titlecolor);
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 44px;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 20px;
+    }
 
-.TextArea h3{
-  color: var(--titlecolor);
-  font-family: 'Poppins',sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 20px;
-}
+    .TextArea p {
+      color: var(--textcolor);
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      margin-left: 20px;
+    }
 
-.TextArea p {
-  color: var(--textcolor);
-  font-family: 'Poppins',sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  margin-left: 20px;
-}
+    .infolist {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 0;
+      padding-top: 0;
+    }
 
-.infolist{
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 0;
-  padding-top: 0;
-}
+    .font {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      color: var(--textcolor);
+      margin-left: 20px;
+      margin-right: 28px;
+    }
 
-.font{
-  font-family: 'Poppins',sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: var(--textcolor);
-  margin-left: 20px;
-  margin-right: 28px;
-}
+    .BulleDesign {
+      margin-right: 30px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      color: #7a869a;
+    }
 
-.BulleDesign{
-  margin-right: 30px;
-  font-family: 'Poppins',sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-}
+    .span {
+      margin-right: 6px;
+      margin-left: 15px;
+      margin-bottom: 15px;
+    }
 
-.span{
-  margin-right: 6px;
-  margin-left: 15px;
-  margin-bottom: 15px;
-}
-
-#About{
+    <<<<<<< head #About {
+      ======= #About {
+        >>>>>>> main
   margin-left: 70px;
-  margin-top: 80px;
-}
+        margin-top: 80px;
+      }
 
-.b{
-  margin-left: 6px;
-  margin-top: 15px;
-}
+      .b {
+        margin-left: 6px;
+        margin-top: 15px;
+      }
 
-h2{
-  color: var(--titlecolor);
-  font-family: 'Poppins',sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-}
+      h2 {
+        color: var(--titlecolor);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+      }
 
-.contactSection{
-  background: #6070ff;
-  border-radius: 130px 0 0 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 110px;
-  padding-top: 50px;
-  background-image: url("images/footerbg.png");
-  background-repeat: no-repeat;
-  background-position: 80px 10px;
-}
+      .contactSection {
+        background: #6070ff;
+        border-radius: 130px 0 0 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 110px;
+        padding-top: 50px;
+        background-image: url("images/footerbg.png");
+        background-repeat: no-repeat;
+        background-position: 80px 10px;
+      }
 
-#Contact-form{
+      <<<<<<< head #Contact-form {
+        ======= .Contact-form {
+          >>>>>>> main
   display: flex;
-  flex-direction: column;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 40px;
-}
+          flex-direction: column;
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-bottom: 40px;
+        }
 
-#Textareainput{
-  height: 200px;
-}
+        <<<<<<< head #Textareainput {
+          ======= .Textareainput {
+            >>>>>>> main
+  height: 200px;mainheightmainheight
+          }
 
-.inputclass,
-#Textareainput{
+          .inputclass,
+          <<<<<<< head #Textareainput {
+            ======= .Textareainput {
+              >>>>>>> main
   border: 1px solid #cfd8dc;
-  border-radius: 8px;
-}
+              border-radius: 8px;
+            }
 
-#touchbutton{
-  margin-top: 15px;
-  margin-left: 3px;
-  margin-right: 20px;
-  width: 140px;
-  padding: 15px 10px;
-  font-family: 'Poppins',sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  color: #6070ff;
-  letter-spacing: 0.03em;
-}
+            #touchbutton {
+              margin-top: 15px;
+              margin-left: 3px;
+              margin-right: 20px;
+              width: 140px;
+              padding: 15px 10px;
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              font-size: 17px;
+              line-height: 24px;
+              text-align: center;
+              color: #6070ff;
+              letter-spacing: 0.03em;
+            }
 
-#touchbutton:hover{
-  background: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  color: white;
-  letter-spacing: 0.03em;
-}
+            #touchbutton:hover {
+              background: #6070ff;
+              box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              font-size: 17px;
+              line-height: 24px;
+              text-align: center;
+              color: white;
+              letter-spacing: 0.03em;
+            }
 
-#touchbutton:active{
-  color: #fff;
-  background: #2230d2;
-}
+            #touchbutton:active {
+              color: #fff;
+              background: #2230d2;
+            }
 
-#Formtitle{
+            <<<<<<< head #Formtitle {
+              ======= .Formtitle {
+                >>>>>>> main
   margin-top: 80px;
-  font-family: 'Poppins',sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 52px;
+                color: #fff;
+                text-align: center;
+              }
+
+              <<<<<<< head #Formtext {
+                font-family: 'Poppins', sans-serif;
+
+                ======= .Formtext {
+                  font-family: 'Poppins', sans-serif;
+                  >>>>>>> main
   font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-  text-align: center;
-}
+                  font-weight: 400;
+                  font-size: 20px;
+                  line-height: 28px;
+                  text-align: center;
+                  color: #ebebff;
+                  margin-top: 50px;
+                  margin-right: 47px;
+                  margin-left: 30px;
+                  margin-bottom: 90px;
+                }
 
-#Formtext{
-  font-family: 'Poppins',sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  margin-top: 50px;
-  margin-right: 47px;
-  margin-left: 30px;
-  margin-bottom: 90px;
-}
+                <<<<<<< head .DesktopNavtext {
+                  display: none;
+                }
 
-.DesktopNavtext{
-  display: none;
-}
+                input {
+                  font-family: "Poppins", sans-serif;
 
-input{
-  font-family: "Poppins",sans-serif;
+                  ======= .DesktopNavtext {
+                    display: none;
+                  }
+
+                  input {
+                    font-family: "Poppins", sans-serif;
+                    >>>>>>> main
   padding: 15px 10px;
-  font-size: 17px;
-  margin-bottom: 25px;
-  color: black;
-}
+                    font-size: 17px;
+                    margin-bottom: 25px;
+                    color: black;
+                  }
 
-input:focus{
-  outline: 0;
-}
+                  <<<<<<< head input:focus {
+                    ======= input:focus {
+                      >>>>>>> main
+  outline: 0;mainoutlinemainoutline
+                    }
 
-input :placeholder {
-  color: #b3bac5;
-  font-family: 'Poppins',sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-}
+                    input :placeholder {
+                      color: #b3bac5;
+                      font-family: 'Poppins', sans-serif;
+                      font-style: normal;
+                      font-weight: 400;
+                      font-size: 15px;
+                      line-height: 24px;
+                    }
 
-textarea{
-  font-family: "Poppins",sans-serif;
+                    <<<<<<< head textarea {
+                      font-family: "Poppins", sans-serif;
+
+                      ======= textarea {
+                        font-family: "Poppins", sans-serif;
+                        >>>>>>> main
   padding: 15px 10px;
-  font-size: 17px;
-  color: black;
-}
+                        font-size: 17px;
+                        color: black;
+                      }
 
-textarea:focus{
-  outline: 0;
-}
+                      <<<<<<< head textarea:focus {
+                        outline: 0;
+                      }
 
-@media (min-width: 768px){
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-  }
+                      @media (min-width: 768px) {
+                        ======= textarea:focus {
+                          outline: 0;
+                        }
 
-  .DesktopNavtext a:visited{
-    color: var(--logocolor);
-  }
+                        @media (min-width: 768px) {
+                          >>>>>>> main html,
+                          body {
+                            margin: 0;
+                            padding: 0;
+                          }
 
-  .FirstSection{
+                          <<<<<<< head .DesktopNavtext a:visited {
+                            color: var(--logocolor);
+                          }
+
+                          .FirstSection {
+                            ======= .DesktopNavtext a:visited {
+                              color: #344563;
+                            }
+
+                            .FirstSection {
+                              >>>>>>> main
     max-width: 100%;
-    height: 900px;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0 140px;
-    background-image: url("images/Desktopbg.png");
-    padding: 15px 0 0 20px;
-    border-radius: 0 0 0 120px;
-  }
+                              height: 900px;
+                              background-color: white;
+                              background-repeat: no-repeat;
+                              background-size: 100%;
+                              background-position: 0 140px;
+                              background-image: url("images/Desktopbg.png");
+                              padding: 15px 0 0 20px;
+                              border-radius: 0 0 0 120px;
+                            }
 
-  #Menu_id{
-    display: none;
-  }
+                            <<<<<<< head #Menu_id {
+                              display: none;
+                            }
 
-  .DesktopNavtext{
+                            .DesktopNavtext {
+                              ======= #Menu_id {
+                                display: none;
+                              }
+
+                              .DesktopNavtext {
+                                >>>>>>> main
     display: flex;
-    justify-content: flex-start;
-  }
+                                justify-content: flex-start;
+                                color: #344563;
+                              }
 
-  body{
+                              <<<<<<< head body {
+                                ======= body {
+                                  >>>>>>> main
     background-image: none;
-    max-width: 100%;
-    overflow-x: hidden;
-    background-color: #e5e5e5;
-  }
+                                  max-width: 100%;
+                                  overflow-x: hidden;
+                                  background-color: #e5e5e5;
+                                }
 
-  #Header{
+                                <<<<<<< head #Header {
+                                  ======= #Header {
+                                    >>>>>>> main
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 90px 100px 90px;
-  }
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    margin: 0 90px 100px 90px;
+                                  }
 
-  .DesktopNavElements{
-    margin: 0 40px 0  0;
-    font-family: 'Poppins',sans-serif;
+                                  <<<<<<< head .DesktopNavElements {
+                                    margin: 0 40px 0  0;
+                                    font-family: 'Poppins', sans-serif;
+
+                                    ======= .DesktopNavElements {
+                                      margin: 0 40px 0  0;
+                                      font-family: 'Poppins', sans-serif;
+                                      >>>>>>> main
     font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    color: var(--logocolor);
-  }
+                                      font-weight: 400;
+                                      font-size: 17px;
+                                      color: var(--logocolor);
+                                    }
 
-  #logo {
-    margin-top:0;
-  }
+                                    #logo {
+                                      <<<<<<< HEAD
+    margin-top: 0;HEADmargin-topHEADmargin-top
+                                    }
 
-  .headlineSection{
+                                    .headlineSection {
+                                      =======
+    margin-top: 0;margin-topmargin-top
+                                    }
+
+                                    .headlineSection {
+                                      >>>>>>> main
     margin-top: 300px;
-    margin-left: 200px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    padding-right: 390px;
-  }
+                                      margin-left: 200px;
+                                      font-family: 'Poppins', sans-serif;
+                                      font-style: normal;
+                                      font-weight: 400;
+                                      font-size: 20px;
+                                      line-height: 28px;
+                                      width: 51%;
+                                      overflow: hidden;
+                                    }
 
-  #work{
+                                    <<<<<<< head #work {
+                                      ======= #work {
+                                        >>>>>>> main
     align-items: center;
-    margin-bottom: 100px;
-  }
+                                        margin-bottom: 100px;
+                                      }
 
-  .card{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    height: 80%;
-    border: 1px solid  #dfe1e6;
-    border-radius: 16px;
-    background-color: white;
-    padding-bottom: 50px;
-  }
+                                      <<<<<<< head .card {
+                                        width: 80%;
+                                        display: flex;
+                                        flex-direction: row;
+                                        height: 80%;
+                                        border: 1px solid  #dfe1e6;
+                                        border-radius: 16px;
+                                        background-color: white;
+                                        padding-bottom: 50px;
+                                      }
 
-  .card:nth-child(even){
+                                      .card:nth-child(even) {
+                                        ======= .card {
+                                          width: 80%;
+                                          display: flex;
+                                          height: auto;
+                                          border: 1px solid  #dfe1e6;
+                                          border-radius: 16px;
+                                          background-color: white;
+                                          flex-wrap: wrap;
+                                          padding: 24px;
+                                        }
+
+                                        .card:nth-child(even) {
+                                          >>>>>>> main
     flex-direction: row-reverse;
-    height: auto;
-  }
+                                          height: auto;
+                                        }
 
-  .languagePics{
+                                        <<<<<<< head .languagePics {
+                                          ======= .languagePics {
+                                            >>>>>>> main
     margin-right: 17px;
-    background-color: #505f79;
-    padding-left: 20px;
-  }
+                                            background-color: #505f79;
+                                            padding-left: 20px;
+                                          }
 
-  .contactSection{
+                                          <<<<<<< head .contactSection {
+                                            ======= .contactSection {
+                                              >>>>>>> main
     background-image: url("images/Contactformdesktop.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0 120px;
-    padding-top: 10px;
-    margin-top: 0;
-  }
+                                              background-repeat: no-repeat;
+                                              background-size: 100%;
+                                              background-position: 0 120px;
+                                              padding-top: 10px;
+                                              margin-top: 0;
+                                            }
 
-  #Contact-form{
-    display: flex;
-    flex-direction: column;
-    padding: 0 443px 40px 444px;
-    margin-top: 0;
-  }
+                                            <<<<<<< head #Contact-form {
+                                              display: flex;
+                                              flex-direction: column;
+                                              padding: 0 443px 40px 444px;
 
-  .inputclass,
-  #Textareainput{
+                                              ======= .Contact-form {
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                >>>>>>> main
+    margin-top: 0;mainmargin-topmainmargin-top
+                                              }
+
+                                              .inputclass,
+                                              <<<<<<< head #Textareainput {
+                                                ======= .Textareainput {
+                                                  >>>>>>> main
     border: 1px solid #cfd8dc;
-    border-radius: 0;
-  }
+                                                  border-radius: 0;
+                                                }
 
-  #Formtitle{
-    padding-top: 80px;
-  }
+                                                <<<<<<< head #Formtitle {
+                                                  padding-top: 80px;
+                                                }
 
-  #Formtext{
-    margin: 50px 0 48px 0;
-    padding: 0 400px;
-  }
+                                                #Formtext {
+                                                  margin: 50px 0 48px 0;
+                                                  padding: 0 400px;
+                                                }
 
-  #touchbutton{
-    margin: 20px 30px 0 150px;
-  }
+                                                #touchbutton {
+                                                  margin: 20px 30px 0 150px;
+                                                }
 
-  .aboutSection{
+                                                .aboutSection {
+                                                  ======= .Formtitle {
+                                                    padding-top: 80px;
+                                                  }
+
+                                                  .Formtext {
+                                                    width: 89.5%;
+                                                    text-align: center;
+                                                    margin: 0 48px 50px 50px;
+                                                  }
+
+                                                  .Textareainput {
+                                                    width: 30%;
+                                                  }
+
+                                                  #touchbutton {
+                                                    margin: 20px 70px 0 70px;
+                                                  }
+
+                                                  .aboutSection {
+                                                    >>>>>>> main
     background-color: white;
-    border-radius: 0 120px 0 0;
-    display: flex;
-    margin: 0;
-    padding-left: 65px;
-    padding-top: 0;
-  }
+                                                    border-radius: 0 120px 0 0;
+                                                    display: flex;
+                                                    margin: 0;
+                                                    padding-left: 65px;
+                                                    padding-top: 0;
+                                                  }
 
-  #About{
-    width: 36%;
-    padding-right: 50px;
-  }
+                                                  <<<<<<< head #About {
+                                                    width: 36%;
+                                                    padding-right: 50px;
+                                                  }
 
-  .Skills{
+                                                  .Skills {
+                                                    ======= #About {
+                                                      width: 40%;
+                                                      padding-right: 50px;
+                                                    }
+
+                                                    .Skills {
+                                                      >>>>>>> main
     display: block;
-    margin-top: 130px;
-    width: 50%;
-    margin-right: 110px;
-  }
+                                                      margin-top: 130px;
+                                                      width: 50%;
+                                                      margin-right: 110px;
+                                                    }
 
-  .Skills li{
+                                                    <<<<<<< head .Skills li {
+                                                      ======= .Skills li {
+                                                        >>>>>>> main
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 28px;
-  }
+                                                        justify-content: space-between;
+                                                        margin-bottom: 20px;
+                                                        margin-top: 28px;
+                                                      }
 
-  .skillList{
+                                                      <<<<<<< head .skillList {
+                                                        ======= .skillList {
+                                                          >>>>>>> main
     margin-right: 70px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-  }
+                                                          font-family: 'Poppins', sans-serif;
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 15px;
+                                                        }
 
-  .languageIcons {
-    border-radius: 8px;
-  }
+                                                        .languageIcons {
+                                                          border-radius: 8px;
+                                                        }
 
-  .TextArea h3 {
-    color: var(--titlecolor);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    margin-top: 18px;
-    margin-right: 0;
-  }
+                                                        .TextArea h3 {
+                                                          color: var(--titlecolor);
+                                                          font-family: 'Poppins', sans-serif;
+                                                          font-weight: 700;
+                                                          font-size: 32px;
+                                                          margin-top: 18px;
+                                                          margin-right: 0;
+                                                        }
 
-  .TextArea p {
-    color: var(--textcolor);
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
+                                                        .TextArea p {
+                                                          color: var(--textcolor);
+                                                          font-family: 'Poppins', sans-serif;
+                                                          font-style: normal;
+                                                          font-weight: 400;
+                                                          font-size: 15px;
+                                                          <<<<<<< HEAD
     margin-left: 26px;
-    margin-right: 6px;
-  }
+                                                          margin-right: 6px;
+                                                        }
 
-  .TextArea {
-    margin-top: 15px;
-    margin-left: 9px;
-    margin-bottom: 15px;
-    margin-right: 15px;
-    width: 50%;
-  }
+                                                        .TextArea {
+                                                          margin-top: 15px;
+                                                          margin-left: 9px;
+                                                          margin-bottom: 15px;
+                                                          margin-right: 15px;
+                                                          width: 50%;
+                                                        =======
+                                                        }
 
-  .gridimg {
-    height: 100%;
-    width: 100%;
-    margin-top: 23px;
-  }
+                                                        .TextArea {
+                                                          width: 40%;
+                                                          height: 50%;
+                                                          padding-right: 10px;
+                                                        >>>>>>> main
+                                                        }
 
-  .list {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-  }
+                                                        .gridimg {
+                                                          height: 100%;
+                                                          width: 100%;
+                                                          margin-top: 23px;
+                                                        }
 
-  .border {
-    border-bottom: 1px solid #d2d7da;
-    padding-bottom: 36px;
-    margin-left: 0;
-  }
+                                                        .list {
+                                                          font-family: 'Poppins', sans-serif;
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 20px;
+                                                          line-height: 24px;
+                                                        }
 
-  .picturescreenshot {
+                                                        .border {
+                                                          border-bottom: 1px solid #d2d7da;
+                                                          padding-bottom: 36px;
+                                                          margin-left: 0;
+                                                        }
+
+                                                        .picturescreenshot {
+                                                          <<<<<<< HEAD
     width: 470px;
-    height: 390px;
-    margin-right: 20px;
-  }
+                                                          height: 390px;
+                                                          margin-right: 20px;
+                                                        }
 
-  .Skills img {
-    margin: 0 10px 0 49px;
-  }
+                                                        .Skills img {
+                                                          margin: 0 10px 0 49px;
+                                                        }
 
-  .skillList li {
-    margin-top: 5px;
-    margin-left: 42px;
-    margin-right: 15px;
+                                                        .skillList li {
+                                                          margin-top: 5px;
+                                                          margin-left: 42px;
+                                                          margin-right: 15px;
+                                                          =======
+    width: 45.5%;
+                                                          height: auto;
+                                                          margin-right: 20px;
+                                                        }
+
+                                                        .Skills img {
+                                                          margin: 0 10px 0 40px;
+                                                        }
+
+                                                        #css {
+                                                          margin-left: 60px;
+                                                        }
+
+                                                        .inputclass {
+                                                          width: 30%;
+                                                        }
+
+                                                        .skillList li {
+                                                          margin: 0 7px 0 36px;
+                                                        >>>>>>> main
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
