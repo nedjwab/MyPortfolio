@@ -518,7 +518,7 @@ textarea:focus {
   .Formtext {
     width: 89.5%;
     text-align: center;
-    margin:0 48px 50px 50px; 
+    margin: 0 48px 50px 50px;
   }
 
   .Textareainput {
@@ -625,11 +625,12 @@ textarea:focus {
   #css {
     margin-left: 60px;
   }
+
   .inputclass {
-    width:30%;
+    width: 30%;
   }
-  
-  .skillList li { 
+
+  .skillList li {
     margin: 0 7px 0 36px;
   }
 }
