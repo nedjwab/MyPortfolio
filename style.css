@@ -502,7 +502,7 @@ textarea:focus {
   .Contact-form {
     display: flex;
     flex-direction: column;
-    padding: 0 443px 40px 444px;
+    align-items: center;
     margin-top: 0;
   }
 
@@ -517,12 +517,16 @@ textarea:focus {
   }
 
   .Formtext {
-    margin: 50px 0 48px 0;
-    padding: 0 400px;
+    width: 89.5%;
+    text-align: center;
+    margin:0 48px 50px 50px; 
+  }
+  .Textareainput{
+    width:30%;
   }
 
   #touchbutton {
-    margin: 20px 30px 0 150px;
+    margin: 20px 70px 0 70px;
   }
 
   .aboutSection {
@@ -621,7 +625,10 @@ textarea:focus {
   #css {
     margin-left: 60px;
   }
-  
+  .inputclass{
+    width:30%;
+    
+  }
   .skillList li {
     margin: 0 7px 0 36px;
   }
