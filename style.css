@@ -614,15 +614,10 @@ textarea:focus {
     margin-left: 0;
   }
 
-  .skillList li {
-    display:flex;
-    flex-direction: column;
-  }
-
   .languageIcons {
     border-radius: 8px;
   }
-  
+
   .TextArea h3 {
     color: var(--titlecolor);
     font-family: 'Poppins', sans-serif;
