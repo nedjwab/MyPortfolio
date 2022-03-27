@@ -37,6 +37,14 @@ body {
   color: var(--logocolor);
 }
 
+#logo:hover {
+  transition-duration: 5s;
+  transition-delay: 1s;
+  transform: rotate(360deg);
+  font-size: 34px;
+  opacity: 0.5;
+}
+
 #Menu_id {
   color: var(--logocolor);
   font-size: 34px;
@@ -78,7 +86,7 @@ body {
 .sociallinks {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   padding-left: 0;
   font-size: 30px;
 }
@@ -86,6 +94,11 @@ body {
 .SocialDesign {
   margin-right: 17px;
   color: var(--iconscolor);
+}
+
+.SocialDesign:hover {
+  transition-delay: 0s;
+  font-size: 55px;
 }
 
 #work {
@@ -163,6 +176,15 @@ body {
   background-color: #ebebff;
 }
 
+.list {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
 .listdesign {
   margin-right: 70px;
 }
@@ -191,6 +213,23 @@ body {
   padding-bottom: 23px;
   padding-left: 2px;
   padding-top: 20px;
+}
+
+.Skills li {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 0 20px 25px;
+}
+
+.Skills img {
+  display: flex;
+  margin: 0 10px 20px 70px;
+}
+
+.border {
+  border-bottom: 1px solid #d2d7da;
+  padding-bottom: 36px;
+  margin-left: 0;
 }
 
 .TextArea h3 {
@@ -246,6 +285,15 @@ body {
   margin-right: 6px;
   margin-left: 15px;
   margin-bottom: 15px;
+}
+
+.skillList {
+  margin-right: 40px;
+  margin-left: 42px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 #About {
@@ -444,7 +492,7 @@ textarea:focus {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    color: var(--logocolor);
+    color: #396df2;
   }
 
   #logo {
@@ -554,8 +602,7 @@ textarea:focus {
   .Skills li {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 28px;
+    margin: 28px 0 20px 0;
   }
 
   .skillList {
@@ -564,12 +611,18 @@ textarea:focus {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
+    margin-left: 0;
+  }
+
+  .skillList li {
+    display:flex;
+    flex-direction: column;
   }
 
   .languageIcons {
     border-radius: 8px;
   }
-
+  
   .TextArea h3 {
     color: var(--titlecolor);
     font-family: 'Poppins', sans-serif;
@@ -620,6 +673,7 @@ textarea:focus {
   }
 
   .Skills img {
+    display: inline;
     margin: 0 10px 0 40px;
   }
 
@@ -633,5 +687,25 @@ textarea:focus {
 
   .skillList li {
     margin: 0 7px 0 36px;
+  }
+
+  .DesktopNavElements:hover {
+    color: var(--logocolor);
+    font-size: 25px;
+  }
+}
+
+.headlineSection h1,
+h2 {
+  animation: MoveUpDown 3s linear 0s;
+}
+
+@keyframes MoveUpDown {
+  from {
+    margin-left: 20px;
+  }
+
+  to {
+    margin-left: 40px;
   }
 }
