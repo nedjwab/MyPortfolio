@@ -189,41 +189,51 @@ body {
   margin-right: 70px;
 }
 
-#SkillsSection {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
+.languageContainer {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
-  margin-top: 48px;
 }
 
-.SkillsSection {
-  width: 327px;
-  list-style-type: none;
+.languagesName {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  font-size: 20px;
-  line-height: 24px;
-  border-bottom: 1px solid #dfe1e6;
-  padding-bottom: 23px;
-  padding-left: 2px;
-  padding-top: 20px;
+  margin-right: 60px;
+  margin-left: 0;
 }
 
 .Skills li {
   display: flex;
   justify-content: space-between;
-  margin: 28px 0 20px 25px;
+  margin: 28px 30px  0 30px;
 }
 
-.Skills img {
-  display: flex;
-  margin: 0 10px 20px 70px;
+.skillList li {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #253858;
+  margin: 8px 10px 37px 0;
+  align-items: center;
+}
+
+#css {
+  margin-bottom: 14px;
+}
+
+.pictures {
+  padding: 0;
+}
+
+.pictures img {
+  margin-top: 6px;
+  margin-bottom: 25px;
+  margin-left: 90px;
 }
 
 .border {
@@ -288,8 +298,7 @@ body {
 }
 
 .skillList {
-  margin-right: 40px;
-  margin-left: 42px;
+  display: flex;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -664,16 +673,21 @@ textarea:focus {
   .picturescreenshot {
     width: 45.5%;
     height: auto;
-    margin-right: 20px;
   }
 
-  .Skills img {
-    display: inline;
-    margin: 0 10px 0 40px;
+  .pictures img {
+    margin-top: 6px;
+    margin-bottom: 25px;
+    margin-left: 37px;
+  }
+
+  .pictures {
+    display: flex;
   }
 
   #css {
-    margin-left: 60px;
+    margin-bottom: 0;
+    margin-left: 49px;
   }
 
   .inputclass {
@@ -681,11 +695,17 @@ textarea:focus {
   }
 
   .skillList li {
-    margin: 0 7px 0 36px;
+    margin: 0 74px 0 2px;
+  }
+
+  .languagesName {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
   }
 
   .DesktopNavElements:hover {
-    color: var(--logocolor);
+    color: var(--textcolor);
     font-size: 25px;
   }
 }
