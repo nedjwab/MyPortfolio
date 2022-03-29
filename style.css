@@ -142,7 +142,7 @@ body {
 }
 
 .btn:hover {
-  background-color:blanchedalmond;
+  background-color: blanchedalmond;
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   cursor: pointer;
