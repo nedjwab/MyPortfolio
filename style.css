@@ -1,5 +1,5 @@
 :root {
-  --logocolor:#253194;
+  --logocolor: #253194;
   --textcolor: #344563;
   --titlecolor: #172b4d;
   --color: #7f8cff;
@@ -142,8 +142,8 @@ body {
 }
 
 .btn:hover {
-  background-color:#396DF2;
-  color:white;
+  background-color: #2c4b99;
+  color: white;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   cursor: pointer;
 }
