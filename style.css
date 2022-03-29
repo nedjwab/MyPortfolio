@@ -98,7 +98,7 @@ body {
 
 .SocialDesign:hover {
   transition-delay: 0s;
-  font-size: 55px;
+  font-size: 25px;
 }
 
 #work {
@@ -242,7 +242,7 @@ body {
   margin-left: 0;
 }
 
-.TextArea h3 {
+.TextArea h2 {
   color: var(--titlecolor);
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -424,10 +424,6 @@ input {
   color: black;
 }
 
-input:focus {
-  outline: 0;
-}
-
 input :placeholder {
   color: #b3bac5;
   font-family: 'Poppins', sans-serif;
@@ -442,10 +438,6 @@ textarea {
   padding: 15px 10px;
   font-size: 17px;
   color: black;
-}
-
-textarea:focus {
-  outline: 0;
 }
 
 @media (min-width: 768px) {
@@ -627,7 +619,7 @@ textarea:focus {
     border-radius: 8px;
   }
 
-  .TextArea h3 {
+  .TextArea h2 {
     color: var(--titlecolor);
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -706,7 +698,7 @@ textarea:focus {
 
   .DesktopNavElements:hover {
     color: var(--textcolor);
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 
