@@ -37,14 +37,6 @@ body {
   color: var(--logocolor);
 }
 
-#logo:hover {
-  transition-duration: 5s;
-  transition-delay: 1s;
-  transform: rotate(360deg);
-  font-size: 34px;
-  opacity: 0.5;
-}
-
 #Menu_id {
   color: var(--logocolor);
   font-size: 34px;
