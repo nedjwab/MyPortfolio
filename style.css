@@ -315,7 +315,8 @@ body {
   margin-top: 15px;
 }
 
-h2 {
+.TextArea h2,
+#About h2 {
   color: var(--titlecolor);
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -700,19 +701,18 @@ textarea {
     color: var(--textcolor);
     font-size: 18px;
   }
-}
 
-.headlineSection h1,
-h2 {
-  animation: MoveUpDown 3s linear 0s;
-}
-
-@keyframes MoveUpDown {
-  from {
-    margin-left: 20px;
+  .headlineSection h1 {
+    animation: MoveUpDown 3s linear 0s;
   }
 
-  to {
-    margin-left: 40px;
+  @keyframes MoveUpDown {
+    from {
+      margin-left: 20px;
+    }
+
+    to {
+      margin-left: 40px;
+    }
   }
 }
