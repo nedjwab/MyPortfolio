@@ -4,7 +4,7 @@
 
 In this Project i have built My Responsive Portfolio.
 
-![alt text](https://github.com/nedjwab/MyPortfolio/blob/mobile-skeleton/images/portfolio.PNG)
+![alt text](https://github.com/nedjwab/MyPortfolio/blob/main/images/portfolio.PNG)
  
 
 ## Built With 🔨

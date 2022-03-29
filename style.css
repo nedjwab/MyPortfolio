@@ -1,5 +1,5 @@
 :root {
-  --logocolor: #6070ff;
+  --logocolor: #253194;
   --textcolor: #344563;
   --titlecolor: #172b4d;
   --color: #7f8cff;
@@ -35,14 +35,6 @@ body {
   font-style: normal;
   padding-top: 4px;
   color: var(--logocolor);
-}
-
-#logo:hover {
-  transition-duration: 5s;
-  transition-delay: 1s;
-  transform: rotate(360deg);
-  font-size: 34px;
-  opacity: 0.5;
 }
 
 #Menu_id {
@@ -98,7 +90,7 @@ body {
 
 .SocialDesign:hover {
   transition-delay: 0s;
-  font-size: 55px;
+  font-size: 25px;
 }
 
 #work {
@@ -150,8 +142,8 @@ body {
 }
 
 .btn:hover {
-  background-color: #6070ff;
-  color: #fff;
+  background-color: #2c4b99;
+  color: white;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   cursor: pointer;
 }
@@ -242,7 +234,7 @@ body {
   margin-left: 0;
 }
 
-.TextArea h3 {
+.TextArea h2 {
   color: var(--titlecolor);
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -315,7 +307,8 @@ body {
   margin-top: 15px;
 }
 
-h2 {
+.TextArea h2,
+#About h2 {
   color: var(--titlecolor);
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -365,12 +358,12 @@ h2 {
   font-size: 17px;
   line-height: 24px;
   text-align: center;
-  color: #6070ff;
+  color: #396df2;
   letter-spacing: 0.03em;
 }
 
 #touchbutton:hover {
-  background: #6070ff;
+  background: #151d61;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -424,10 +417,6 @@ input {
   color: black;
 }
 
-input:focus {
-  outline: 0;
-}
-
 input :placeholder {
   color: #b3bac5;
   font-family: 'Poppins', sans-serif;
@@ -442,10 +431,6 @@ textarea {
   padding: 15px 10px;
   font-size: 17px;
   color: black;
-}
-
-textarea:focus {
-  outline: 0;
 }
 
 @media (min-width: 768px) {
@@ -627,7 +612,7 @@ textarea:focus {
     border-radius: 8px;
   }
 
-  .TextArea h3 {
+  .TextArea h2 {
     color: var(--titlecolor);
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -706,21 +691,20 @@ textarea:focus {
 
   .DesktopNavElements:hover {
     color: var(--textcolor);
-    font-size: 25px;
-  }
-}
-
-.headlineSection h1,
-h2 {
-  animation: MoveUpDown 3s linear 0s;
-}
-
-@keyframes MoveUpDown {
-  from {
-    margin-left: 20px;
+    font-size: 18px;
   }
 
-  to {
-    margin-left: 40px;
+  .headlineSection h1 {
+    animation: MoveUpDown 3s linear 0s;
+  }
+
+  @keyframes MoveUpDown {
+    from {
+      margin-left: 20px;
+    }
+
+    to {
+      margin-left: 40px;
+    }
   }
 }
