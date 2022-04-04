@@ -86,10 +86,10 @@ body {
   height: 100%;
   flex-direction: column;
   background-color: #6070ff;
-  font-size: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
   opacity: 0.9;
   position: fixed;
-  align-items: flex-start;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -107,7 +107,7 @@ body {
 }
 
 .nav-item {
-  margin: 53px 0 0 30px;
+  margin: 60px 0 0 30px;
   color: white;
 }
 
@@ -115,6 +115,14 @@ body {
   margin: 0 20px 40px 20px;
   padding-bottom: 10px;
   padding-right: 25px;
+}
+
+.headlineSection.active {
+  filter: blur(4px);
+}
+
+.navbar {
+  z-index: 1;
 }
 
 .headlineSection h1 {
