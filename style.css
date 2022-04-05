@@ -37,16 +37,92 @@ body {
   color: var(--logocolor);
 }
 
-#Menu_id {
-  color: var(--logocolor);
-  font-size: 34px;
+.nav-menu {
+  display: none;
+}
+
+.DesktopNavtext {
+  display: none;
+}
+
+.hamburger {
+  padding: 0;
   margin-top: 0;
+  display: block;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: blue;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: white;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
+}
+
+.nav-menu.active {
+  box-sizing: border-box;
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-color: #6070ff;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.9;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  left: 0;
+}
+
+.nav-menu a {
+  color: white;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.nav-item {
+  margin: 60px 0 0 30px;
+  color: white;
 }
 
 .headlineSection {
   margin: 0 20px 40px 20px;
   padding-bottom: 10px;
   padding-right: 25px;
+}
+
+.headlineSection.active {
+  filter: blur(4px);
+}
+
+.navbar {
+  z-index: 1;
 }
 
 .headlineSection h1 {
@@ -405,10 +481,6 @@ body {
   margin-bottom: 90px;
 }
 
-.DesktopNavtext {
-  display: none;
-}
-
 input {
   font-family: "Poppins", sans-serif;
   padding: 15px 10px;
@@ -454,10 +526,6 @@ textarea {
     background-image: url("images/Desktopbg.png");
     padding: 15px 0 0 20px;
     border-radius: 0 0 0 120px;
-  }
-
-  #Menu_id {
-    display: none;
   }
 
   .DesktopNavtext {
@@ -706,5 +774,13 @@ textarea {
     to {
       margin-left: 40px;
     }
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
