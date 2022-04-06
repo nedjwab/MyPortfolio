@@ -85,9 +85,9 @@ function CreatePopup(popupWindow) {
   const Title = document.createElement('p');
   Title.setAttribute('class', 'skillsectionElements');
   Title.innerHTML = popupWindow.Title;
-  const project = document.createElement('p');
+  const project = document.createElement('li');
   project.innerHTML = popupWindow.project;
-  const year = document.createElement('p');
+  const year = document.createElement('li');
   year.innerHTML = popupWindow.year;
   const ProjectPopImageDiv = document.createElement('div');
   ProjectPopImageDiv.setAttribute('class', 'image-container');
