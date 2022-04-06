@@ -13,6 +13,11 @@ body {
   background-size: 100%;
   background-position: 0 40px;
   background-image: url("images/Background.png");
+  overflow-x: hidden;
+}
+
+body.active {
+  overflow: hidden;
 }
 
 #Header {
@@ -505,6 +510,145 @@ textarea {
   color: black;
 }
 
+.cardpopUp {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  bottom: 80%;
+  width: 100%;
+  max-height: 100vh;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  display: flex;
+}
+
+.popupContainer {
+  position: fixed;
+  z-index: 20;
+  height: 90%;
+  width: 57%;
+  padding: 0 5%;
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 68px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  align-items: center;
+  overflow: auto;
+}
+
+.popupContainer img {
+  width: 100%;
+  height: 220px;
+  margin-top: 20px;
+}
+
+.popupContainer .fa-times {
+  width: 12px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 14px;
+}
+
+.projectName {
+  margin-top: 18px;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: var(--titlecolor);
+  font-family: 'Poppins', sans-serif;
+}
+
+.skillsSection {
+  display: flex;
+  gap: 6px;
+  margin-top: 15px;
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.skillsSection span {
+  width: 8px;
+}
+
+.popDescription {
+  margin-top: 12px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.lang {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.lang p {
+  padding: 4px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.line-span {
+  margin: 20px auto;
+  width: 95%;
+  height: 1px;
+  color: #dfe1e6;
+}
+
+.pop-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.live {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  width: 60%;
+  height: 48px;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  padding: 12px 15px;
+  color: #396df2;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  padding-left: 20px;
+  border-radius: 9px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.source {
+  width: 50%;
+  height: 48px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  padding: 12px;
+  color: #396df2;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  border-radius: 9px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
 @media (min-width: 768px) {
   html,
   body {
@@ -783,4 +927,101 @@ textarea {
   .hamburger {
     display: none;
   }
+
+  .cardpopUp {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popupContainer {
+    width: 70%;
+    height: 95%;
+    overflow: auto;
+    padding: 24px 45px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 70%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e2;
+    border-radius: 8px;
+  }
+
+  .popupContainer img {
+    margin-top: 0;
+    width: 85%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .skillsSection p {
+    list-style-type: circle;
+  }
+
+  .popupContainer .fa-times {
+    margin-top: 0;
+  }
+
+  .projectName {
+    margin-top: 0;
+  }
+
+  .popDescription {
+    float: left;
+    width: 65%;
+    margin-bottom: 60px;
+  }
+
+  .container {
+    float: right;
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .line-span {
+    margin: 10px auto;
+  }
+
+  .live {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 136px;
+    height: 48px;
+  }
+
+  .source {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 146px;
+    height: 48px;
+  }
+  
+  .skillsectionElements {
+    display: flex;
+    justify-content: flex-start;
+    color:#344563;
+  }
+
 }
