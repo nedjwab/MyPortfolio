@@ -523,6 +523,11 @@ textarea {
   display: flex;
 }
 
+li {
+  margin-top: 12px;
+  margin-left: 5px;
+}
+
 .popupContainer {
   position: fixed;
   z-index: 20;
@@ -616,7 +621,7 @@ textarea {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  width: 60%;
+  width: 47%;
   height: 48px;
   align-items: center;
   margin-top: 5px;
@@ -634,13 +639,12 @@ textarea {
 .source {
   width: 50%;
   height: 48px;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 15px;
   line-height: 20px;
   align-items: center;
   margin-top: 5px;
   margin-bottom: 25px;
-  padding: 12px;
   color: #396df2;
   background-color: #fff;
   border: 1px solid #396df2;
