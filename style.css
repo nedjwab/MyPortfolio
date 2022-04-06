@@ -548,7 +548,7 @@ textarea {
 .popupContainer .fa-times {
   width: 12px;
   float: right;
-  margin-top: 30px;
+  margin-top: 33px;
   margin-right: 14px;
 }
 
@@ -943,6 +943,11 @@ textarea {
     align-items: center;
   }
 
+    li {
+     margin-top: 12px;
+     margin-left: 5px;
+  }
+
   .popupContainer {
     width: 70%;
     height: 90%;
@@ -1018,5 +1023,13 @@ textarea {
     justify-content: flex-start;
     color:#344563;
   }
+  
+  .popupContainer .fa-times {
+    width: 12px;
+    float: right;
+    margin-top:25px;
+    margin-right: 14px;
+  }
+  
 
 }
