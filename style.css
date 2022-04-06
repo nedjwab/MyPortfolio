@@ -582,7 +582,7 @@ textarea {
 }
 
 .popDescription {
-  margin-top: 12px;
+  margin-top: 16px;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
@@ -992,6 +992,7 @@ textarea {
     float: left;
     width: 65%;
     margin-bottom: 60px;
+    margin-top: 47px;
   }
 
   .container {
