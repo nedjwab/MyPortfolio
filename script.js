@@ -80,8 +80,8 @@ function CreatePopup(popupWindow) {
   const popupTitle = document.createElement('h2');
   popupTitle.setAttribute('class', 'projectName');
   popupTitle.innerHTML = popupWindow.Name;
-  const techPop = document.createElement('div');
-  techPop.setAttribute('class', 'skillsSection');
+  const technologiespop = document.createElement('div');
+  technologiespop.setAttribute('class', 'skillsSection');
   const Title = document.createElement('p');
   Title.setAttribute('class', 'skillsectionElements');
   Title.innerHTML = popupWindow.Title;
@@ -128,9 +128,9 @@ function CreatePopup(popupWindow) {
     }
   });
 
-  techPop.append(Title);
-  techPop.append(project);
-  techPop.append(year);
+  technologiespop.append(Title);
+  technologiespop.append(project);
+  technologiespop.append(year);
   ProjectPopImageDiv.append(popImage);
   skills.append(skill1);
   skills.append(skill2);
@@ -138,11 +138,10 @@ function CreatePopup(popupWindow) {
   popBtns.append(liveBtn);
   popBtns.append(sourceBtn);
   container.append(skills);
-
   container.append(popBtns);
   projectPopContainer.append(closeBtnPop);
   projectPopContainer.append(popupTitle);
-  projectPopContainer.append(techPop);
+  projectPopContainer.append(technologiespop);
   projectPopContainer.append(ProjectPopImageDiv);
   projectPopContainer.append(description);
   projectPopContainer.append(container);

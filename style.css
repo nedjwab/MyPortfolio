@@ -523,9 +523,10 @@ textarea {
   display: flex;
 }
 
-li {
+.skillsSection li {
   margin-top: 12px;
-  margin-left: 5px;
+  margin-left: 10px;
+  font-size: 15px;
 }
 
 .popupContainer {
@@ -947,11 +948,6 @@ li {
     align-items: center;
   }
 
-    li {
-     margin-top: 12px;
-     margin-left: 5px;
-  }
-
   .popupContainer {
     width: 70%;
     height: 90%;
@@ -960,7 +956,6 @@ li {
     padding: 24px 45px;
     margin-top: 80px;
     margin-bottom: 80px;
-    
   }
 
   .image-container {
@@ -979,9 +974,18 @@ li {
     height: 100%;
     border-radius: 0;
   }
-  
+
   .popupContainer .fa-times {
-    margin-top: 0;
+    width: 12px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 14px;
+  }
+
+  .skillsSection li {
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 15px;
   }
 
   .popDescription {
@@ -1021,19 +1025,10 @@ li {
     width: 146px;
     height: 48px;
   }
-  
+
   .skillsectionElements {
     display: flex;
     justify-content: flex-start;
-    color:#344563;
+    color: #344563;
   }
-  
-  .popupContainer .fa-times {
-    width: 12px;
-    float: right;
-    margin-top:25px;
-    margin-right: 14px;
-  }
-  
-
 }
