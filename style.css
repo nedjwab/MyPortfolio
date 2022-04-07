@@ -660,7 +660,7 @@ textarea {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 530;
-  font-size:17px;
+  font-size: 17px;
   line-height: 24px;
   margin-top: 12px;
 }
@@ -1042,7 +1042,6 @@ textarea {
 
   #text.active {
     margin-bottom: 19px;
-    margin-right: 0px;
     color: #932710;
   }
 }
