@@ -190,4 +190,16 @@ const text= document.querySelector("#text");
 const submit=document.querySelector("#touchbutton");
 
 //action="https://formspree.io/f/mrgjlvye"
+form.addEventListener('submit', (event) => {
+  const emailValue=form.elements['email'].value;
+  if((emailValue.toLowerCase() !== emailValue)){
+    event.preventDefault();
+    text.classList.add("active");
+    text.innerHTML="Please Enter an email adress in Lowercase";
+  }else {
+    form.submit();
+  }
+});
+
+
 
