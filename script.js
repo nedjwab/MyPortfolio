@@ -192,8 +192,7 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
     text.classList.add('active');
     text.innerHTML = 'Please Enter an email adress in Lowercase';
-  } 
-  else {
+  } else {
     form.submit();
   }
 });
