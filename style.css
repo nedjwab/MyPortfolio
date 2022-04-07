@@ -654,6 +654,20 @@ textarea {
   font-style: normal;
 }
 
+#text.active {
+  margin-bottom: 18px;
+  margin-left: 3px;
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-start;
+  color: #932710;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
 @media (min-width: 768px) {
   html,
   body {
@@ -1027,5 +1041,11 @@ textarea {
     display: flex;
     justify-content: flex-start;
     color: #344563;
+  }
+
+  #text.active {
+    margin-bottom: 20px;
+    margin-right: 33px;
+    color: #932710;
   }
 }

@@ -183,3 +183,11 @@ body.querySelectorAll('.projectButton').forEach((btn) => {
     }
   });
 });
+
+const form = document.querySelector(".Contact-form");
+const text= document.querySelector("#text");
+
+const submit=document.querySelector("#touchbutton");
+
+//action="https://formspree.io/f/mrgjlvye"
+
