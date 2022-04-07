@@ -25,7 +25,7 @@ const object = [
     year: '2015',
     img: './images/desk1.png',
     description:
-    "A daily selection of privately personalized reads no accounts or sign-ups required.",
+    'A daily selection of privately personalized reads no accounts or sign-ups required.',
     skill1: 'html',
     skill2: 'CSS',
     skill3: 'JavaScript',
@@ -38,7 +38,7 @@ const object = [
     year: '2015',
     img: './images/desk2.png',
     description:
-    "Experimental content creation feature that allows users to  add  to an existing story over the course of a day without spamming their friends",
+    'Experimental content creation feature that allows users to  add  to an existing story over the course of a day without spamming their friends',
     skill1: 'html',
     skill2: 'CSS',
     skill3: 'JavaScript',
@@ -64,19 +64,17 @@ const object = [
     year: '2015',
     img: './images/desk4.png',
     description:
-    "A smart assistant to make driving more safe, efficient,and fun by unlocking your most expensive computer: your car..",
+    'A smart assistant to make driving more safe, efficient,and fun by unlocking your most expensive computer: your car..',
     skill1: 'Sass',
     skill2: 'Html',
     skill3: 'JavaScript',
   },
 ];
 
-const work=document.querySelector("#work");
+const work = document.querySelector('#work');
 
-
-
-for (let i = 1; i <object.length; i++) {
-  work.innerHTML+= `<div  class="card">
+for (let i = 1; i < object.length; i += 1) {
+  work.innerHTML += `<div  class="card">
   <div class="picturescreenshot">
   <img class="gridimg"  src="${object[i].img}"  alt="projectScreenshot">
   </div>
@@ -97,7 +95,6 @@ for (let i = 1; i <object.length; i++) {
   </div>
 </div>`;
 }
-
 
 function CreatePopup(popupWindow) {
   const projectPop = document.createElement('div');
