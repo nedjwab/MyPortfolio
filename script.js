@@ -196,3 +196,25 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// ######## Local storage ########
+
+if (storageAvailable('localStorage')) {
+  const inputs = [form.name, form.email, form.message];
+  inputs.forEach((input) => {
+    input.addEventListener('input', () => {
+      const storagData = {
+        fullName: form.name.value,
+        email: form.email.value,
+        message: form.message.value,
+      };
+      localStorage.setItem('data', JSON.stringify(storagData));
+    });
+  });
+  const getData = JSON.parse(localStorage.getItem('data'));
+  if (getData) {
+    form.name.value = getData.name;
+    form.email.value = getData.email;
+    form.message.value = getData.message;
+  }
+}
