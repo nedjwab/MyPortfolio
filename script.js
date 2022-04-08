@@ -230,7 +230,7 @@ if (storageAvailable('localStorage')) {
   });
   const getData = JSON.parse(localStorage.getItem('data'));
   if (getData) {
-    form.name.value = getData.name;
+    form.name.value = getData.fullName;
     form.email.value = getData.email;
     form.message.value = getData.message;
   }
