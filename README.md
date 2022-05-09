@@ -2,7 +2,7 @@
 
 # Responsive Portfolio
 
-In this Project i have built My Responsive Portfolio.
+In this project, I have built My Responsive Portfolio. 
 
 ![alt text](https://github.com/nedjwab/MyPortfolio/blob/main/images/portfolio.PNG)
  
@@ -18,7 +18,7 @@ In this Project i have built My Responsive Portfolio.
 ### Install
 Download the zip file.
 extract the folder.
-go to the index.html file .
+go to the index.html file.
 
 
 ### Prerequisites
@@ -31,10 +31,10 @@ go to the index.html file .
 ### Usage
 
 - For anyone who wants to practice html5 or/and css3
-- For anyone who wants to create his own portfolio.
+- For anyone who wants to create his portfolio.
 
 ## Live Demo 
-[Here](https://nedjwab.github.io/MyPortfolio/) yo can find a live demo of my Portfolio .
+[Here](https://nedjwab.github.io/MyPortfolio/) you can find a live demo of my Portfolio.
 
 ## Authors
 
